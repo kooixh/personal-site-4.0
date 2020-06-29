@@ -6,6 +6,8 @@ import React from "react";
 import './user.info.css';
 import Emoji from "@app/component/emoji";
 
+import CV from '@app/assets/cv.pdf';
+
 
 function ProfileOverview() {
     return (
@@ -34,10 +36,10 @@ export function UserInfo() {
                     <div className="subheading">
                         Software Engineer <Emoji symbol="👨‍💻" label="tech guy"/>
                         <br />
-                        <a className="infolink" href="cv.pdf">CV (pdf) <Emoji symbol="📄" label="document"/></a>
+                        <a className="infolink" href={CV}>CV <Emoji symbol="📄" label="document"/></a>
                         <br />
                         <a className="infolink" href="mailto:xiuhong.kooi977055@gmail.com">
-                            xiuhong.kooi977055@gmail.com <Emoji symbol="📧" label="email"/>
+                            kooixh97@gmail.com <Emoji symbol="📧" label="email"/>
                         </a>
                     </div>
                     <Socials />
