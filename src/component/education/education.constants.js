@@ -14,6 +14,8 @@ export const SCHOOLS = [
         schoolName: 'University of Newcastle upon Tyne',
         schoolEmoji: '🇬🇧',
         schoolEmojiLabel: 'great britain flag',
+        description: 'Lead Developer in Group Project, Best Grade in Class of 19\', 2x British Computing Society Academic Awards',
+        dissertation: 'Dissertation: An Adaptive And Intuitive Approach to Term Rewriting',
         grades: '1st Class Honours, 83%',
         gradesEmoji: '🏆',
         date: 'September 2016 - June 2019',

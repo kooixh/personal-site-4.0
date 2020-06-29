@@ -11,6 +11,12 @@ export function SchoolCard({props}) {
                 <div className="mb-3 subheading">{ props.degree }
                     <span className="grades"> {props.grades}</span> <Emoji symbol={props.gradesEmoji}/>
                 </div>
+                <p className="mb-3">
+                    { props.description }
+                </p>
+                <p className="mb-3">
+                    { props.dissertation }
+                </p>
             </div>
             <div className="col text-center">
                 <p className="largest font-weight-bold d-inline date">
