@@ -27,7 +27,7 @@ function ProjectTableHead() {
             <tr className="tableHeadRecord">
                 <th>Project Name</th>
                 <th>Description</th>
-                <th>View</th>
+                <th></th>
             </tr>
         </thead>
     )

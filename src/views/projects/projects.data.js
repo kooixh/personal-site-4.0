@@ -2,6 +2,8 @@ import NE_WEATHER from '@app/assets/projects/screenshots/ne_1.png';
 import QCK_BUDGET from '@app/assets/projects/screenshots/qck_2.png';
 import TRS from '@app/assets/projects/screenshots/rewrite_1.png';
 
+import DISSERTATION from '@app/assets/projects/dissertation.pdf';
+
 export const PROJECT_DATA = {
     genid: {
         name: 'Genid',
@@ -37,11 +39,14 @@ export const PROJECT_DATA = {
         type: 'desktop',
         description: 'Tool for performing a learning Term Rewriting',
         links: [
-
             {
                 name: 'View On GitHub',
                 href: 'https://github.com/kooixh/rewrite-system'
             },
+            {
+                name: 'Read The Dissertation',
+                href: DISSERTATION
+            }
         ],
         details: 'My undergraduate dissertation. This project is to create an easy to use Term Rewriting system that is powerful and easy to use.' +
             ' For an in depth understanding you can read my dissertation :)',
