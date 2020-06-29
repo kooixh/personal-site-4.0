@@ -1,0 +1,19 @@
+.heading.h2 {
+    font-size: 2em;
+    color: #242582;
+    font-weight: bold;
+}
+
+.title {
+    color: #e84a5f;
+}
+
+.date {
+    color: #e84a5f;
+}
+
+.subheading {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #e84a5f;
+}

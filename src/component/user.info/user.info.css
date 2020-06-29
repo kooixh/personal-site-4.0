@@ -1,0 +1,29 @@
+.name {
+    padding-top: 0;
+    font-size: 5em;
+    color: #99b898;
+    margin-bottom: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+.subheading {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #e84a5f;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.infolink {
+    color: #ff847c;
+}
+
+.infolink:hover {
+    color: #cc527a;
+}
+
+.profilepic {
+    height: auto;
+    width: auto;
+    border: 0.5rem solid #ff847c;
+}

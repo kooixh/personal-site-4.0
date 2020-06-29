@@ -1,0 +1,27 @@
+.headerLink {
+    display: inline-flex;
+    padding: 0.25em 2em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.headerLink:active {
+    background: #41addd;
+    color: #fff;
+}
+
+.headerWrapper {
+    background: #ffffff;
+    font-size: 1.1em
+}
+
+.logoWrap {
+    display: inline;
+    width: 4.5em;
+}
+
+.navBar {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 120%;
+}
