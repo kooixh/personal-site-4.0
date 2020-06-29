@@ -1,3 +1,7 @@
+import NE_WEATHER from '@app/assets/projects/screenshots/ne_1.png';
+import QCK_BUDGET from '@app/assets/projects/screenshots/qck_2.png';
+import TRS from '@app/assets/projects/screenshots/rewrite_1.png';
+
 export const PROJECT_DATA = {
     genid: {
         name: 'Genid',
@@ -41,7 +45,12 @@ export const PROJECT_DATA = {
         ],
         details: 'My undergraduate dissertation. This project is to create an easy to use Term Rewriting system that is powerful and easy to use.' +
             ' For an in depth understanding you can read my dissertation :)',
-        techDetails: 'The system is written in core Java and Swing, a library called JGraph for building the graphs. It was then ported to be a REST API.'
+        techDetails: 'The system is written in core Java and Swing, a library called JGraph for building the graphs. It was then ported to be a REST API.',
+        screenShot: {
+            img: TRS,
+            height: '50%',
+            width: '50%'
+        }
     },
     'qck-budget': {
         name: 'QcK Budget: Simple Money Manager',
@@ -55,7 +64,12 @@ export const PROJECT_DATA = {
             }
         ],
         details: 'QcK Budget is an iOS app that provides user quick and simple way to track and manage their money. This app was a learning project that introduced me to mobile app development',
-        techDetails: 'It was initially built with Visual Studio and Xamarin.iOS and it was then changed to Ionic.'
+        techDetails: 'It was initially built with Visual Studio and Xamarin.iOS and it was then changed to Ionic.',
+        screenShot: {
+            img: QCK_BUDGET,
+            height: '350px',
+            width: '250px'
+        }
     },
     'ne-weather': {
         name: 'NE Weather',
@@ -67,7 +81,12 @@ export const PROJECT_DATA = {
             'The app uses sensors around the North East on England to collect information around the city.',
         techDetails: 'The core app was written in Java for Android. ' +
             'The backend was handled by an RESTful API provided by the school, it allows us to collect weather data around the city. We used the data and created an App which gives the user activity suggestions based on the current weather condition. ' +
-            'We also utilised other APIs to provide more functionality like search and more.'
+            'We also utilised other APIs to provide more functionality like search and more.',
+        screenShot: {
+            img: NE_WEATHER,
+            height: '400px',
+            width: '250px'
+        }
     },
     anomify: {
         name: 'Anomify',

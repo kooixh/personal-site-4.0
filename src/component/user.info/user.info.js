@@ -6,6 +6,25 @@ import React from "react";
 import './user.info.css';
 import Emoji from "@app/component/emoji";
 
+
+function ProfileOverview() {
+    return (
+        <div className="mr-5 mt-3 pr-5">
+            <p>
+                Dedicated software engineer, passionate in delivering high quality software and emphasises
+                attention to detail and writing clean code. I am a diligent team player, leader and fast learner who is willing
+                to work with different technology stacks in order to acquire more knowledge in software engineering.
+            </p>
+            <p>
+                Excellent problem solver with many years in programming, interested in data structures and algorithms.
+                I Enjoy trying and learning about different programming languages and technologies. I spend a lot
+                of my undergraduate and postgraduate careers researching and learning about Formal Methods.
+            </p>
+        </div>
+    )
+}
+
+
 export function UserInfo() {
     return (
         <Section className="pl-5 m-0 mt-3">
@@ -34,14 +53,7 @@ export function UserInfo() {
                 </div>
             </div>
 
-            <div className="mr-5 mt-3 pr-5">
-                <p>
-                    Enthusiastic backend software engineer, passionate in delivering high quality software who emphasises attention to detail and writing clean code.
-                </p>
-                <p>
-                    Problem solver, interested in data structures and algorithms. Enjoy trying and learning about different programming languages and technologies.
-                </p>
-            </div>
+            <ProfileOverview/>
         </Section>
     )
 }

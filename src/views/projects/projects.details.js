@@ -56,12 +56,29 @@ function ProjectLinks({links}) {
 
     let linksRendered = renderProjectLinks(links);
     return (
-
         <div className="subheading mt-5">
             <h2 className="">Links <Emoji symbol="🌏" label="earth"/></h2>
             <ul className="projectsLink">
                 { linksRendered }
             </ul>
+        </div>
+    )
+}
+
+function ProjectScreenShot({screenshot}) {
+    if (screenshot === undefined) {
+        return (
+            <div>
+            </div>
+        )
+    }
+
+    return (
+        <div className="subheading mt-5">
+            <h2 className="">ScreenShot <Emoji symbol="📷" label="camera"/></h2>
+            <div className="">
+                <img src={screenshot.img} alt="screenshot" width={screenshot.width} height={screenshot.height} />
+            </div>
         </div>
     )
 }
@@ -92,6 +109,7 @@ export function ProjectDetails({id}) {
                             <p>{ project.techDetails }</p>
                         </div>
 
+                        <ProjectScreenShot screenshot={project.screenShot}/>
                     </div>
                 </Section>
             </article>
