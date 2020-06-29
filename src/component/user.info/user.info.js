@@ -1,9 +1,10 @@
 import Section from "../section";
-import Profile from "../../assets/profile-pic-resize.jpg";
-import Socials from "../../views/socials";
+import Profile from "@app/assets/profile-pic-resize.jpg";
+import Socials from "@app/component/socials";
 import React from "react";
 
 import './user.info.css';
+import Emoji from "@app/component/emoji/emoji";
 
 export function UserInfo() {
     return (
@@ -12,11 +13,12 @@ export function UserInfo() {
                 <div className="col-8">
                     <h1 className="name">Xiu Hong Kooi</h1>
                     <div className="subheading">
-                        Software Engineer 👨‍💻
+                        Software Engineer <Emoji symbol="👨‍💻" label="tech guy"/>
                         <br />
-                        <a className="infolink" href="cv.pdf">CV (pdf) 📄 </a>
+                        <a className="infolink" href="cv.pdf">CV (pdf) <Emoji symbol="📄" label="document"/></a>
+                        <br />
                         <a className="infolink" href="mailto:xiuhong.kooi977055@gmail.com">
-                            xiuhong.kooi977055@gmail.com 📧
+                            xiuhong.kooi977055@gmail.com <Emoji symbol="📧" label="email"/>
                         </a>
                     </div>
                 </div>

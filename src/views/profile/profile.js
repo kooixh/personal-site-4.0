@@ -1,9 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Experience from '../experience';
+import Experience from '../../component/experience';
 import './profile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import UserInfo from "../../component/user.info";
+import UserInfo from "@app/component/user.info";
+import Education from "@app/component/education/education";
 
 
 function ProfileHelmet() {
@@ -25,6 +26,7 @@ export function Profile() {
             <div>
                 <UserInfo />
                 <Experience />
+                <Education/>
             </div>
         </article>
     );
