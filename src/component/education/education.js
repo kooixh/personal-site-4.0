@@ -10,7 +10,7 @@ function renderSchools() {
     let schools = [];
     SCHOOLS.forEach((elem) => {
        schools.push(
-           <SchoolCard props={elem}/>
+           <SchoolCard props={elem} key={elem.uid}/>
        )
     });
     return schools;

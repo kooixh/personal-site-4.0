@@ -3,7 +3,7 @@ import React from 'react';
 import Logo from '@app/assets/logo-new.png';
 
 import './header.css';
-import { Navbar, Nav, NavItem, NavLink} from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 
 function Header() {
     return (

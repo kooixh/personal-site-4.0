@@ -6,7 +6,8 @@ export const SCHOOLS = [
         schoolEmojiLabel: 'great britain flag',
         grades: 'In Progress',
         gradesEmoji: '🔜',
-        date: 'October 2020 - June 2021'
+        date: 'October 2020 - June 2021',
+        uid: 1
     },
     {
         degree: 'BSc Computer Science',
@@ -15,6 +16,7 @@ export const SCHOOLS = [
         schoolEmojiLabel: 'great britain flag',
         grades: '1st Class Honours, 83%',
         gradesEmoji: '🏆',
-        date: 'September 2016 - June 2019'
+        date: 'September 2016 - June 2019',
+        uid: 2
     }
 ];

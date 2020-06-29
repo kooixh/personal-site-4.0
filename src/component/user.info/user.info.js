@@ -11,7 +11,7 @@ export function UserInfo() {
         <Section className="pl-5 m-0 mt-3">
             <div className="row">
                 <div className="col-8">
-                    <h1 className="name">Xiu Hong Kooi</h1>
+                    <h1 className="pageHeader">Xiu Hong Kooi</h1>
                     <div className="subheading">
                         Software Engineer <Emoji symbol="👨‍💻" label="tech guy"/>
                         <br />
