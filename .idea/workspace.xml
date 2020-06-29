@@ -3,15 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="89a9b47c-a1c9-4cf1-85fa-75ec15fb4ee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/education/education.constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/education/education.constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/profile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/education/education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/education/education.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/emoji/emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/emoji/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/experience/experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/experience/experience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/school.card/school.card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/school.card/school.card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/socials/socials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/socials/socials.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/user.info/user.info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/user.info/user.info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/user.info/user.info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/user.info/user.info.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/skills/skills.constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/skills/skills.constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/skills/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/skills/skills.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/skills/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/skills/skills.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +41,7 @@
   <component name="ProjectId" id="1dyYR9prbCnk7ZtdUW3hlDd4clX" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,8 +57,8 @@
       <recent name="$PROJECT_DIR$/src/views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/component" />
     </key>
   </component>
@@ -77,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593398788487</updated>
-      <workItem from="1593398789698" duration="25568000" />
+      <workItem from="1593398789698" duration="29514000" />
     </task>
     <servers />
   </component>

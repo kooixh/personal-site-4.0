@@ -5,8 +5,7 @@
     color: #000000;
 }
 
-.headerLink:active {
-    background: #41addd;
+.headerLink:active, .headerLink:focus {
     color: #fff;
 }
 

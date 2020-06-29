@@ -1,10 +1,10 @@
 import Section from "../section";
-import Profile from "@app/assets/profile-pic-resize.jpg";
+import Profile from "@app/assets/profile-pic-new.png";
 import Socials from "@app/component/socials";
 import React from "react";
 
 import './user.info.css';
-import Emoji from "@app/component/emoji/emoji";
+import Emoji from "@app/component/emoji";
 
 export function UserInfo() {
     return (
@@ -21,6 +21,7 @@ export function UserInfo() {
                             xiuhong.kooi977055@gmail.com <Emoji symbol="📧" label="email"/>
                         </a>
                     </div>
+                    <Socials />
                 </div>
                 <div className="col mr-3">
                   <span>
@@ -32,6 +33,7 @@ export function UserInfo() {
                   </span>
                 </div>
             </div>
+
             <div className="mr-5 mt-3 pr-5">
                 <p>
                     Enthusiastic backend software engineer, passionate in delivering high quality software who emphasises attention to detail and writing clean code.
@@ -40,7 +42,6 @@ export function UserInfo() {
                     Problem solver, interested in data structures and algorithms. Enjoy trying and learning about different programming languages and technologies.
                 </p>
             </div>
-            <Socials />
         </Section>
     )
 }

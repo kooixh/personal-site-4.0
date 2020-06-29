@@ -9,7 +9,7 @@ function renderSocials() {
     let list = [];
     SOCIALS.forEach((elem) => {
         list.push(
-            <a className="socialsIcon" href={ elem.url } key={elem.uid}>
+            <a className="socialsIcon mt-2" href={ elem.url } key={elem.uid}>
                 <FontAwesomeIcon icon={ elem.icon } className="socialsButton" />
             </a>
         )
@@ -20,7 +20,7 @@ function renderSocials() {
 export function Socials() {
     let socialList = renderSocials();
     return (
-        <div className="mb-3">
+        <div className="mb-3 mt-3">
             { socialList }
         </div>
     );

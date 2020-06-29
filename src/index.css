@@ -1,14 +1,14 @@
-
 html, body {
   height: 100%;
   width: 95%;
   line-height: 1.5;
   background: #2a363b;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 body.fontLoaded {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #app {
@@ -32,10 +32,15 @@ p {
 .content {
   border: #00FFFF solid 3px;
   border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .subheading {
   font-weight: 500;
   font-size: 1.5rem;
   color: #e84a5f;
+}
+
+a {
+  color: #ff847c;
 }

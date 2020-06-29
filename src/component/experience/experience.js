@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { JOBS } from './experience.constants';
 
 import './experience.css';
-import Emoji from "@app/component/emoji/emoji";
+import Emoji from "@app/component/emoji";
 
 function renderJobs() {
 

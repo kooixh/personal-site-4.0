@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '@app/assets/logo-new.png';
+import Logo from '@app/assets/logo.png';
 
 import './header.css';
 import { Navbar, Nav} from 'react-bootstrap';

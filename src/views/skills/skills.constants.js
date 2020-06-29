@@ -7,6 +7,11 @@ export const TECH_ICONS = [
         uid: 1
     },
     {
+        icon: 'cib-spring',
+        href: 'https://spring.io',
+        uid: 12
+    },
+    {
         icon: 'cib-javascript',
         href: 'https://javascript.com',
         uid: 2

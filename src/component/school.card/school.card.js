@@ -1,5 +1,5 @@
 import React from "react";
-import Emoji from "@app/component/emoji/emoji";
+import Emoji from "@app/component/emoji";
 
 import './school.cards.css';
 

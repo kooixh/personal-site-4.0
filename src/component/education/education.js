@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "@app/component/section";
-import Emoji from "@app/component/emoji/emoji";
+import Emoji from "@app/component/emoji";
 
 import { SCHOOLS } from "@app/component/education/education.constants";
 import SchoolCard from "@app/component/school.card/school.card";

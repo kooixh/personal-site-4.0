@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "../header";
 import Profile from "../../views/profile";
 import Skills from "@app/views/skills";
+import Footer from "@app/component/footer";
 
 export function Main() {
     return (
@@ -17,6 +18,7 @@ export function Main() {
                         <Profile/>
                     </Route>
                 </Switch>
+                <Footer/>
             </Router>
         </div>
 

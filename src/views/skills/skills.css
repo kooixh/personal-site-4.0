@@ -16,3 +16,12 @@
     font-size: 1.5em;
     color: #e84a5f;
 }
+
+.devHistory a {
+    color: #ff847c;
+}
+
+.devHistory a:hover {
+    color: #e84a5f;
+    text-decoration: none;
+}
