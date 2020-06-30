@@ -103,7 +103,7 @@ function TechSkills() {
 
 function DevelopmentHistory() {
     return (
-        <div className="devHistory">
+        <div className="devHistory pb-5">
             <div className="subheading mt-5">
                 <h2 className="">My History In Tech <Emoji symbol="📆" label="calendar"/></h2>
             </div>
