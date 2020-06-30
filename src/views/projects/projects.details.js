@@ -2,7 +2,7 @@ import React from "react";
 
 import { PROJECT_DATA } from "@app/views/projects/projects.data";
 import Emoji from "@app/component/emoji";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import NotFound from "@app/views/notfound";
 
 
@@ -43,7 +43,6 @@ function ProjectLink(props) {
         </li>
     )
 }
-
 
 function ProjectLinks({links}) {
 

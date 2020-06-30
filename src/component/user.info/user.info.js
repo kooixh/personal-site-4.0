@@ -1,12 +1,11 @@
-import Profile from "@app/assets/profile/profile-pic-new.png";
-import Socials from "@app/component/socials";
 import React from "react";
+import Socials from "@app/component/socials";
 
-import './user.info.scss';
 import Emoji from "@app/component/emoji";
 
-import CV from '@app/assets/profile/cv.pdf';
+import { CV, ProfilePic } from '@app/assets/profile/profile.assets';
 
+import './user.info.scss';
 
 function ProfileOverview() {
     return (
@@ -49,8 +48,8 @@ export function UserInfo() {
                   <span>
                     <img
                         className="img-fluid img-profile rounded-circle mb-2 profilepic"
-                        src={Profile}
-                        alt=""
+                        src={ ProfilePic }
+                        alt="profile picture"
                     />
                   </span>
                 </div>
