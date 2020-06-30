@@ -49,7 +49,7 @@ export function UserInfo() {
                     <img
                         className="img-fluid img-profile rounded-circle mb-2 profilepic"
                         src={ ProfilePic }
-                        alt="profile picture"
+                        alt="profile"
                     />
                   </span>
                 </div>

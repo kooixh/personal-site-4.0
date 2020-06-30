@@ -22,13 +22,14 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "require": "^2.4.20",
+    "sass-resources-loader": "^2.0.3",
     "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.13.1"
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "sass-loader": "^8.0.2"
   }
 }
