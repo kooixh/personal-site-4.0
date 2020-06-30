@@ -27,7 +27,6 @@ a {
   }
 }
 
-
 p {
   font-size: $page-paragraph-font-size
 }
@@ -63,4 +62,40 @@ p {
   color: $primary-dark-green;
   margin-bottom: 0;
   font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  p {
+    font-size: 1.1em;
+  }
+  .subheading {
+    font-size: 1.20em;
+  }
+  .heading {
+    font-size: 1.5em;
+  }
+  .inner-heading{
+    font-size: 1.1em;
+  }
+  .page-header {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 1250px) {
+  p {
+    font-size: 1.5em;
+  }
+  .subheading {
+    font-size: 1.75em;
+  }
+  .heading {
+    font-size: 2em;
+  }
+  .inner-heading{
+    font-size: 1.5em;
+  }
+  .page-header {
+    font-size: 4.5em;
+  }
 }

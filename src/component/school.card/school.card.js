@@ -7,7 +7,7 @@ export function SchoolCard({props}) {
     return (
         <div className="row mb-5">
             <div className="col-7">
-                <h3 className="mb-0 title">{ props.schoolName } <Emoji symbol={props.schoolEmoji} label={props.schoolEmojiLabel}/></h3>
+                <h3 className="mb-0 subheading">{ props.schoolName } <Emoji symbol={props.schoolEmoji} label={props.schoolEmojiLabel}/></h3>
                 <div className="mb-3">
                     <p className="subheading">
                         { props.degree }
