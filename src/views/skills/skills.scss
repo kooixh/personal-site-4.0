@@ -7,3 +7,16 @@
     font-size: $page-subheading-font-size;
     color: $primary-red;
 }
+
+
+@media (max-width: 1000px) {
+    .work-preference {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1250px) {
+    .work-preference {
+        font-size: 1.75em;
+    }
+}
