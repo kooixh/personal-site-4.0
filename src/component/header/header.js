@@ -16,7 +16,7 @@ function Header() {
                 <Nav className="mr-auto">
                     <Nav.Link href="/skills" className="headerLink">Skills</Nav.Link>
                     <Nav.Link href="/projects" className="headerLink">Projects</Nav.Link>
-                    <Nav.Link href="https://blog.kooixiuhong.com" className="headerLink">Blogs</Nav.Link>
+                    <Nav.Link href="https://blog.kooixiuhong.com" className="headerLink">Blog</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
