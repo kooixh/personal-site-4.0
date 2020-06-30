@@ -3,6 +3,7 @@ import React from "react";
 import { PROJECT_DATA } from "@app/views/projects/projects.data";
 import Emoji from "@app/component/emoji";
 import {Helmet} from "react-helmet";
+import NotFound from "@app/views/notfound";
 
 
 function ProjectDetailsHelmet(props) {
@@ -85,6 +86,11 @@ function ProjectScreenShot({screenshot}) {
 export function ProjectDetails({id}) {
 
     let project = PROJECT_DATA[id];
+    if (project === undefined) {
+        return (
+            <NotFound/>
+        )
+    }
     return (
         <div>
             <ProjectDetailsHelmet name={project.name} description={project.description} />

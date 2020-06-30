@@ -1,0 +1,14 @@
+@import "../..";
+
+$page-error-font-size: 5em;
+$page-message-font-size: 2em;
+
+.error-header {
+  color: $primary-dark-green;
+  font-size: $page-error-font-size;
+}
+
+.error-message {
+  font-size: $page-message-font-size;
+  color: $primary-red;
+}

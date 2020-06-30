@@ -6,6 +6,7 @@ import Skills from "@app/views/skills";
 import Footer from "@app/component/footer";
 import Project from "@app/views/projects";
 import ProjectDetails from "@app/views/projects/projects.details";
+import NotFound from "@app/views/notfound";
 
 export function Main() {
     return (
@@ -13,19 +14,22 @@ export function Main() {
             <Router>
                 <Header/>
                 <Switch>
-                    <Route path="/skills">
+                    <Route exact path="/skills">
                         <Skills/>
                     </Route>
                     <Route exact path="/projects/:pid" render={(props) =>
                         <ProjectDetails id={props.match.params.pid}/>
                     }>
                     </Route>
-                    <Route path="/projects">
+                    <Route exact path="/projects">
                         <Project/>
                     </Route>
 
-                    <Route path="/">
+                    <Route exact path="/">
                         <Profile/>
+                    </Route>
+                    <Route path="">
+                        <NotFound/>
                     </Route>
                 </Switch>
                 <Footer/>
