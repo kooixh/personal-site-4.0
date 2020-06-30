@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Experience from '../../component/experience';
-import './profile.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import UserInfo from "@app/component/user.info";
 import Education from "@app/component/education/education";
 
+import './profile.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProfileHelmet() {
     return (

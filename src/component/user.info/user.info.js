@@ -1,12 +1,11 @@
-import Section from "../section";
-import Profile from "@app/assets/profile-pic-new.png";
+import Profile from "@app/assets/profile/profile-pic-new.png";
 import Socials from "@app/component/socials";
 import React from "react";
 
-import './user.info.css';
+import './user.info.scss';
 import Emoji from "@app/component/emoji";
 
-import CV from '@app/assets/cv.pdf';
+import CV from '@app/assets/profile/cv.pdf';
 
 
 function ProfileOverview() {
@@ -29,18 +28,20 @@ function ProfileOverview() {
 
 export function UserInfo() {
     return (
-        <Section className="pl-5 m-0 mt-3">
+        <section className="pl-5 m-0 mt-3">
             <div className="row">
                 <div className="col-8">
-                    <h1 className="pageHeader">Xiu Hong Kooi</h1>
-                    <div className="subheading">
-                        Software Engineer <Emoji symbol="👨‍💻" label="tech guy"/>
-                        <br />
-                        <a className="infolink" href={CV}>CV <Emoji symbol="📄" label="document"/></a>
-                        <br />
-                        <a className="infolink" href="mailto:xiuhong.kooi977055@gmail.com">
-                            kooixh97@gmail.com <Emoji symbol="📧" label="email"/>
-                        </a>
+                    <h1 className="page-header">Xiu Hong Kooi</h1>
+                    <div>
+                        <p className="subheading">
+                            Software Engineer <Emoji symbol="👨‍💻" label="tech guy"/>
+                            <br />
+                            <a className="primary-link" href={CV}>CV <Emoji symbol="📄" label="document"/></a>
+                            <br />
+                            <a className="primary-link" href="mailto:xiuhong.kooi977055@gmail.com">
+                                kooixh97@gmail.com <Emoji symbol="📧" label="email"/>
+                            </a>
+                        </p>
                     </div>
                     <Socials />
                 </div>
@@ -56,7 +57,7 @@ export function UserInfo() {
             </div>
 
             <ProfileOverview/>
-        </Section>
+        </section>
     )
 }
 

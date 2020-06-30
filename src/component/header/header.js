@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Logo from '@app/assets/logo.png';
+import Logo from '@app/assets/logo/logo.png';
 
-import './header.css';
+import './header.scss';
 import { Navbar, Nav} from 'react-bootstrap';
 
 function Header() {
     return (
-        <Navbar className=" headerWrapper content" expand="lg">
+        <Navbar className="headerWrapper content" expand="lg">
 
             <Navbar.Brand href="/"><img className="logoWrap" src={ Logo }  alt="site logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

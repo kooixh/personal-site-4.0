@@ -1,11 +1,9 @@
 import React from "react";
-import Section from "@app/component/section";
-
 import { Table } from "react-bootstrap";
 
 import { PROJECT_DATA } from "@app/views/projects/projects.data";
 
-import './projects.css';
+import './projects.scss';
 import {Helmet} from "react-helmet";
 
 
@@ -49,7 +47,7 @@ function ProjectBodyContent({prop}) {
         <tr className="tableHeadRecord">
             <td>{ prop.name }</td>
             <td>{ prop.description }</td>
-            <td><a href={ projectHref }>View Project</a></td>
+            <td><a href={ projectHref } className="primary-link">View Project</a></td>
         </tr>
     )
 }
@@ -78,12 +76,12 @@ export function Project() {
         <div>
             <ProjectHelmet/>
             <article className="content mt-3">
-                <Section className="pl-5 m-0 mt-3 pr-5 mb-5">
+                <section className="pl-5 m-0 mt-3 pr-5 mb-5">
                     <div className="mb-4">
-                        <h1 className="pageHeader">My Projects</h1>
+                        <h1 className="page-header">My Projects</h1>
                     </div>
                     <ProjectTable/>
-                </Section>
+                </section>
             </article>
         </div>
     )

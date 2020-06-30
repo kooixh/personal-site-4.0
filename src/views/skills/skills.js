@@ -1,9 +1,8 @@
 import React from "react";
 import {Helmet} from "react-helmet";
-import Section from "@app/component/section";
 
 import {TECH_ICONS} from "@app/views/skills/skills.constants";
-import './skills.css';
+import './skills.scss';
 import Emoji from "@app/component/emoji";
 
 function SkillsHelmet() {
@@ -23,7 +22,7 @@ function renderTechStack() {
     TECH_ICONS.forEach((elem) => {
         icons.push(
             <li className="list-inline-item tech-icons pr-2" key={elem.uid}>
-                <a href={elem.href}><i className={elem.icon}/></a>
+                <a href={elem.href} className="primary-link"><i className={elem.icon}/></a>
             </li>
         )
     });
@@ -89,16 +88,16 @@ function StuffWorkOn() {
 
 function TechSkills() {
     return (
-        <Section className="pl-5 m-0 mt-3">
+        <section className="pl-5 m-0 mt-3">
             <div className="row">
                 <div className="col-10">
-                    <h1 className="pageHeader">Technical Skills</h1>
+                    <h1 className="page-header">Technical Skills</h1>
                     <TechStack/>
                     <StuffWorkOn/>
                     <DevelopmentHistory/>
                 </div>
             </div>
-        </Section>
+        </section>
     );
 }
 
@@ -116,7 +115,7 @@ function DevelopmentHistory() {
                 gained an interest in technology.
             </p>
             <p>
-                My programming journey began <a href="https://twitter.com/kooixiuhong/status/503448692871811072">August 2014</a>,
+                My programming journey began <a className="primary-link" href="https://twitter.com/kooixiuhong/status/503448692871811072">August 2014</a>,
                 my first language was C# and I created a simple Rubik's Cube average calculator.
                 I then experimented further by creating a simple web browser and a statistic calculator,
                 which built my interest in programming. I then went on to university and my passion for programming never

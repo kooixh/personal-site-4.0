@@ -1,0 +1,7 @@
+@import "../../index";
+$school-grades-font-size: 0.75em;
+
+.grades {
+    font-size: $school-grades-font-size;
+    color: $primary-light-red;
+}

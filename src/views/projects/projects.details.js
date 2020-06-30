@@ -1,5 +1,4 @@
 import React from "react";
-import Section from "@app/component/section";
 
 import { PROJECT_DATA } from "@app/views/projects/projects.data";
 import Emoji from "@app/component/emoji";
@@ -39,7 +38,7 @@ function renderProjectLinks(links) {
 function ProjectLink(props) {
     return (
         <li>
-            <Emoji symbol="🔗" label="link"/> <a href={props.link.href}>{props.link.name}</a>
+            <Emoji symbol="🔗" label="link"/> <a href={props.link.href} className="primary-link">{props.link.name}</a>
         </li>
     )
 }
@@ -56,9 +55,9 @@ function ProjectLinks({links}) {
 
     let linksRendered = renderProjectLinks(links);
     return (
-        <div className="subheading mt-5">
+        <div className="mt-5">
             <h2 className="">Links <Emoji symbol="🌏" label="earth"/></h2>
-            <ul className="projectsLink">
+            <ul className="projects-link">
                 { linksRendered }
             </ul>
         </div>
@@ -74,7 +73,7 @@ function ProjectScreenShot({screenshot}) {
     }
 
     return (
-        <div className="subheading mt-5">
+        <div className="mt-5">
             <h2 className="">ScreenShot <Emoji symbol="📷" label="camera"/></h2>
             <div className="">
                 <img src={screenshot.img} alt="screenshot" width={screenshot.width} height={screenshot.height} />
@@ -90,11 +89,13 @@ export function ProjectDetails({id}) {
         <div>
             <ProjectDetailsHelmet name={project.name} description={project.description} />
             <article className="content mt-3">
-                <Section className="pl-5 m-0 mt-3 pr-5 mb-5">
+                <section className="pl-5 m-0 mt-3 pr-5 mb-5">
                     <div className="mb-4">
-                        <h1 className="pageHeader">{ project.name } { generateProjectEmoji(project.type) }</h1>
-                        <div className="subheading">
-                            { project.description }
+                        <h1 className="page-header">{ project.name } { generateProjectEmoji(project.type) }</h1>
+                        <div>
+                            <p className="subheading">
+                                { project.description }
+                            </p>
                         </div>
 
                         <ProjectLinks links={project.links}/>
@@ -111,7 +112,7 @@ export function ProjectDetails({id}) {
 
                         <ProjectScreenShot screenshot={project.screenShot}/>
                     </div>
-                </Section>
+                </section>
             </article>
         </div>
     )

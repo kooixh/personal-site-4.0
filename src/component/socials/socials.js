@@ -2,14 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SOCIALS }  from './socials.constants';
 
-import './socials.css';
-
+import './socials.scss';
 
 function renderSocials() {
     let list = [];
     SOCIALS.forEach((elem) => {
         list.push(
-            <a className="socialsIcon mt-2" href={ elem.url } key={elem.uid}>
+            <a className="socialsIcon mt-2 primary-link" href={ elem.url } key={elem.uid}>
                 <FontAwesomeIcon icon={ elem.icon } className="socialsButton" />
             </a>
         )

@@ -1,6 +1,4 @@
 import React from "react";
-import './experience.card.css';
-
 
 export function JobCard({jobName, companyName, desc, date}) {
     return (
@@ -14,7 +12,7 @@ export function JobCard({jobName, companyName, desc, date}) {
             </div>
 
             <div className="col text-center">
-                <p className="largest font-weight-bold d-inline date">
+                <p className="inner-heading font-weight-bold d-inline primary-light-red-text">
                     {date}
                 </p>
             </div>

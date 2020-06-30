@@ -1,12 +1,10 @@
 import React from 'react';
-import Section from '@app/component/section';
-import JobCard from "@app/component/job.card/experience.card";
+import JobCard from "@app/component/job.card/job.card";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { JOBS } from './experience.constants';
 
-import './experience.css';
 import Emoji from "@app/component/emoji";
 
 function renderJobs() {
@@ -23,12 +21,12 @@ function renderJobs() {
 export function Experience() {
     let jobs = renderJobs();
     return (
-        <Section className="pl-5 pt-3">
+        <section className="pl-5 pt-3">
             <div className="w-100" id="experiences">
                 <h2 className="mb-5 heading">Experience <Emoji symbol="💼" label="briefcase"/></h2>
                 { jobs }
             </div>
-        </Section>
+        </section>
     );
 }
 
