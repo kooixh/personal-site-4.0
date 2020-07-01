@@ -1,8 +1,8 @@
 import React from "react";
 import Skills from "@app/views/skills/skills";
 import ProjectDetails from "@app/views/projects/projects.details";
-import Profile from "@app/views/profile/profile";
-import Project from "@app/views/projects/projects";
+import Profile from "@app/views/profile";
+import Project from "@app/views/projects";
 import NotFound from "@app/views/notfound/notfound";
 
 export const routes = [
