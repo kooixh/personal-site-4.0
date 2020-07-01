@@ -14,20 +14,12 @@ export function Main() {
             <Router>
                 <Header/>
                 <Switch>
-                    <Route exact path="/skills">
-                        <Skills/>
-                    </Route>
+                    <Route exact path="/skills" render={() => <Skills />}/>
                     <Route exact path="/projects/:pid" render={(props) =>
                         <ProjectDetails id={props.match.params.pid}/>
-                    }>
-                    </Route>
-                    <Route exact path="/projects">
-                        <Project/>
-                    </Route>
-
-                    <Route exact path="/">
-                        <Profile/>
-                    </Route>
+                    } />
+                    <Route exact path="/projects" render={() => <Project />}/>
+                    <Route exact path="/" render={() => <Profile />}/>
                     <Route path="">
                         <NotFound/>
                     </Route>
