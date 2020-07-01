@@ -2,6 +2,7 @@ $header-font-size: 1.7vw;
 $nav-bar-link-font-size: 120%;
 $header-link-padding: 0.25em 2em;
 $logo-pic-width: 3.5em;
+$logo-pic-width-active: 4em;
 
 #basic-navbar-nav a {
     color: $primary-light-red;
@@ -17,9 +18,15 @@ $logo-pic-width: 3.5em;
     border-radius: 20px;
 }
 
+
 .logoWrap {
     display: inline;
     width: $logo-pic-width;
+}
+
+.logoWrapActive {
+    display: inline;
+    width: $logo-pic-width-active;
 }
 
 .navBar {
