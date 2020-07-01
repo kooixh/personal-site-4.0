@@ -1,5 +1,5 @@
-$page-error-font-size: 5em;
-$page-message-font-size: 2em;
+$page-error-font-size: 6.75vw;
+$page-message-font-size: 3vw;
 
 .error-header {
   color: $primary-dark-green;
@@ -9,4 +9,22 @@ $page-message-font-size: 2em;
 .error-message {
   font-size: $page-message-font-size;
   color: $primary-red;
+}
+
+@media (max-width: 1000px) {
+  .error-header {
+    font-size: 3.5em;
+  }
+  .error-message {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1250px) {
+  .error-header {
+    font-size: 5em;
+  }
+  .error-message {
+    font-size: 2em;
+  }
 }

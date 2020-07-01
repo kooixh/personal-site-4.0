@@ -12,7 +12,7 @@ function Header() {
             <Navbar.Brand href="/"><img className="logoWrap" src={ Logo }  alt="site logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-            <Navbar.Collapse id="basic-navbar-nav" className="ml-4 pt-3 pb-3 navBar">
+            <Navbar.Collapse id="basic-navbar-nav" className="ml-4 pt-2 pb-2 navBar">
                 <Nav className="mr-auto">
                     <Nav.Link href="/skills" className="headerLink">Skills</Nav.Link>
                     <Nav.Link href="/projects" className="headerLink">Projects</Nav.Link>
