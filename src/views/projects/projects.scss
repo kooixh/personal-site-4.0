@@ -1,26 +1,26 @@
 .tableHeadRecord th {
-    color: $primary-red;
-    font-weight: bold;
+  color: $primary-red;
+  font-weight: bold;
 }
 
 .tableHeadRecord td {
-    color: $primary-light-blue;
+  color: $primary-light-blue;
 }
 
 .projects-link {
-    list-style-type: none;
-    font-size: $page-inner-heading-font-size;
-    color: $primary-red;
+  list-style-type: none;
+  font-size: $page-inner-heading-font-size;
+  color: $primary-red;
 }
 
 @media (max-width: 1000px) {
-    .projects-link {
-        font-size: 1.1em;
-    }
+  .projects-link {
+    font-size: 1.1em;
+  }
 }
 
 @media (min-width: 1250px) {
-    .projects-link {
-        font-size: 1.5em;
-    }
+  .projects-link {
+    font-size: 1.5em;
+  }
 }

@@ -5,16 +5,16 @@ $socials-icons-height: 3.5rem;
 $socials-icons-width: 3.5rem;
 
 .socialsIcon {
-    display: inline-block;
-    height: $socials-icons-height;
-    width: $socials-icons-width;
-    background-color: $primary-light-red;
-    color: #fff !important;
-    border-radius: 100%;
-    text-align: center;
-    font-size: $socials-icon-font-size;
-    line-height: 3.5rem;
-    margin-right: $socials-icons-margin-right;
+  display: inline-block;
+  height: $socials-icons-height;
+  width: $socials-icons-width;
+  background-color: $primary-light-red;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: $socials-icon-font-size;
+  line-height: 3.5rem;
+  margin-right: $socials-icons-margin-right;
 
   &:last-child {
     margin-right: 0;
@@ -26,5 +26,5 @@ $socials-icons-width: 3.5rem;
 }
 
 .socialsButton {
-    color: black;
+  color: black;
 }
