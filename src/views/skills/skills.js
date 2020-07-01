@@ -72,9 +72,7 @@ function TechPreference(prop) {
 function StuffWorkOn() {
     return (
         <div>
-            <div className="subheading mt-5">
-                <h2 className="">Stuff I like to work with <Emoji symbol="👍" label="tool"/></h2>
-            </div>
+            <h2 className="subheading mt-5">Stuff I like to work with <Emoji symbol="👍" label="tool"/></h2>
             <ul className="work-preference">
                 <TechPreference name="Backend Web Development" emoji="💻" emojiLabel="laptop"/>
                 <TechPreference name="Mobile App Development" emoji="📱" emojiLabel="mobile"/>

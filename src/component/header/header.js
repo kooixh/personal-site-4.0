@@ -7,10 +7,10 @@ import { Navbar, Nav} from 'react-bootstrap';
 
 function Header() {
     return (
-        <Navbar className="headerWrapper content" expand="lg">
+        <Navbar className="headerWrapper mt-3" expand="lg" variant="dark">
 
             <Navbar.Brand href="/"><img className="logoWrap" src={ Logo }  alt="site logo"/></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" id="primary-navbar-toggle" />
 
             <Navbar.Collapse id="basic-navbar-nav" className="ml-4 pt-2 pb-2 navBar">
                 <Nav className="mr-auto">
