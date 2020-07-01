@@ -9,7 +9,7 @@ function generateRoutes() {
     let routesRotuer = [];
     routes.forEach((elem) => {
         routesRotuer.push(
-            <Route exact path={elem.path} render={elem.render}/>
+            <Route exact path={elem.path} render={elem.render} key={elem.uid}/>
         )
     });
     return routesRotuer;
