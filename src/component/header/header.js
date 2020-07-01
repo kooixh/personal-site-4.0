@@ -27,20 +27,15 @@ const links = [
     }
 ];
 
-
 function renderLink() {
     let navs = [];
     links.forEach((elem) => {
-
-
         let navLink = (elem.external) ? <a href={elem.href} className="ml-3 mr-3" key={elem.uid}>{elem.label}</a> :
             <NavLink to={elem.href} className="ml-3 mr-3" activeClassName="activeLink" key={elem.uid}>{elem.label}</NavLink>
-
         navs.push(navLink);
     });
     return navs;
 }
-
 
 function Header() {
     let navLinks = renderLink();

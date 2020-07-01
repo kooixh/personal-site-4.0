@@ -1,5 +1,5 @@
 import React from 'react';
-import JobCard from "@app/component/job.card/job.card";
+import JobCard from "@app/component/job.card";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
