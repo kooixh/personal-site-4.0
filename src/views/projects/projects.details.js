@@ -105,13 +105,13 @@ export function ProjectDetails({id}) {
 
                         <ProjectLinks links={project.links}/>
 
-                        <div className="subheading mt-5">
-                            <h2 className="">Details <Emoji symbol="📝" label="details"/></h2>
+                        <div className="mt-5">
+                            <h2 className="subheading">Details <Emoji symbol="📝" label="details"/></h2>
                             <p>{ project.details }</p>
                         </div>
 
-                        <div className="subheading mt-5">
-                            <h2 className="">Tech Details <Emoji symbol="🛠" label="tech details"/></h2>
+                        <div className="mt-5">
+                            <h2 className="subheading">Tech Details <Emoji symbol="🛠" label="tech details"/></h2>
                             <p>{ project.techDetails }</p>
                         </div>
 
