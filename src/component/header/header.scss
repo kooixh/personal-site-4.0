@@ -26,6 +26,12 @@ $logo-pic-width: 3.5em;
     font-size: $header-font-size;
 }
 
+.activeLink {
+    color: $primary-light-blue !important;
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
 @media (max-width: 1000px) {
     .navBar {
         font-size: 2em;

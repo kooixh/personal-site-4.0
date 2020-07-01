@@ -5,7 +5,37 @@ import Logo from '@app/assets/logo/logo.png';
 import './header.scss';
 import { Navbar, Nav} from 'react-bootstrap';
 
+const links = [
+    {
+        label: 'Skills',
+        href: '/skills'
+    },
+    {
+        label: 'Projects',
+        href: '/projects'
+    },
+    {
+        label: 'Blog',
+        href: 'https://blog.kooixiuhong.com'
+    }
+];
+
+
+function renderLink() {
+    let navs = [];
+    links.forEach((elem) => {
+        let isActive = window.location.pathname === elem.href;
+        let className = (isActive) ? 'activeLink' : '';
+        navs.push(
+            <Nav.Link href={elem.href} className={className}>{elem.label}</Nav.Link>
+        )
+    });
+    return navs;
+}
+
+
 function Header() {
+    let links = renderLink();
     return (
         <Navbar className="headerWrapper mt-3" expand="lg" variant="dark">
 
@@ -14,9 +44,7 @@ function Header() {
 
             <Navbar.Collapse id="basic-navbar-nav" className="ml-4 pt-2 pb-2 navBar">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/skills" className="headerLink">Skills</Nav.Link>
-                    <Nav.Link href="/projects" className="headerLink">Projects</Nav.Link>
-                    <Nav.Link href="https://blog.kooixiuhong.com" className="headerLink">Blog</Nav.Link>
+                    { links }
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
