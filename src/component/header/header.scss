@@ -19,12 +19,12 @@ $logo-pic-width-active: 4em;
 }
 
 
-.logoWrap {
+.logoWrap img {
     display: inline;
     width: $logo-pic-width;
 }
 
-.logoWrapActive {
+.logoWrapActive img {
     display: inline;
     width: $logo-pic-width-active;
 }
