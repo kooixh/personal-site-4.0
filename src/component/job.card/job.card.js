@@ -1,11 +1,11 @@
 import React from 'react';
 
-export function JobCard({ jobName, companyName, desc, date }) {
+export function JobCard({ jobName, companyName, desc, date, jobLink }) {
   return (
     <div className="row mb-5">
       <div className="col-7">
         <h3 className="mb-0 title">{jobName}</h3>
-        <div className="mb-3 subheading">{companyName}</div>
+          <div className="mb-3"><a className="subheading primary-link" href={jobLink}>{companyName}</a></div>
         <p>{desc}</p>
       </div>
 

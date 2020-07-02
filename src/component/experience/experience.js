@@ -16,6 +16,7 @@ function renderJobs() {
         desc={elem.description}
         date={elem.date}
         key={elem.uid}
+        jobLink={elem.jobLink}
       />
     );
   });
