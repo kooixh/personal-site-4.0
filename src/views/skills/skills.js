@@ -131,7 +131,7 @@ function DevelopmentHistory() {
                 an interest in technology.
             </p>
             <p>
-                My programming journey began
+                My programming journey began{' '}
                 <a className="primary-link" href="https://twitter.com/kooixiuhong/status/503448692871811072">
                     August 2014
                 </a>
