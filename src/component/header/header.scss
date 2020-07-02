@@ -1,4 +1,4 @@
-$header-font-size: 1.7vw;
+$header-font-size: 120%;
 $nav-bar-link-font-size: 120%;
 $header-link-padding: 0.25em 2em;
 $logo-pic-width: 3.5em;
@@ -37,10 +37,4 @@ $logo-pic-width-active: 4em;
   color: $primary-light-blue !important;
   text-decoration: underline !important;
   font-weight: bold;
-}
-
-@media (max-width: 1000px) {
-  .navBar {
-    font-size: 2em;
-  }
 }
