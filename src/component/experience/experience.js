@@ -1,5 +1,5 @@
 import React from 'react';
-import JobCard from '@app/component/job.card';
+import JobCard from '@app/component/card/job';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,12 +11,8 @@ function renderJobs() {
   JOBS.forEach((elem) => {
     jobs.push(
       <JobCard
-        jobName={elem.title}
-        companyName={elem.company}
-        desc={elem.description}
-        date={elem.date}
+        props={elem}
         key={elem.uid}
-        jobLink={elem.jobLink}
       />
     );
   });
