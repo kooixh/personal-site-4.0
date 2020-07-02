@@ -19,7 +19,7 @@ function renderTechStack() {
   TECH_ICONS.forEach((elem) => {
     icons.push(
       <li className="list-inline-item tech-icons pr-2" key={elem.uid}>
-        <a href={elem.href} className="primary-link">
+        <a href={elem.href} className="primary-link" title={elem.title}>
           <i className={elem.icon} />
         </a>
       </li>
