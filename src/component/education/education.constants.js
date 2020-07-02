@@ -7,6 +7,8 @@ export const SCHOOLS = [
     grades: 'In Progress',
     gradesEmoji: '🔜',
     date: 'October 2020 - June 2021',
+    schoolLink: 'https://ncl.ac.uk',
+    schoolLinkTitle: 'University of Cambridge',
     uid: 1,
   },
   {
@@ -20,6 +22,8 @@ export const SCHOOLS = [
     grades: '1st Class Honours, 83%',
     gradesEmoji: '🏆',
     date: 'September 2016 - June 2019',
+    schoolLink: 'https://cam.ac.uk',
+    schoolLinkTitle: 'Newcastle University',
     uid: 2,
   },
 ];

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import UserInfo from '@app/component/user.info';
-import Education from '@app/component/education/education';
+import Education from '@app/component/education';
 import Experience from '../../component/experience';
 
 import './profile.scss';

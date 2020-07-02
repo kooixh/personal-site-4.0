@@ -16,6 +16,7 @@ const AIRASIA_JOB = {
   description: AIRASIA_DESC,
   date: 'August 2019 - August 2020',
   jobLink: 'https://airasia.com/',
+  jobLinkTitle: 'AirAsia',
   uid: 1,
 };
 
@@ -25,6 +26,7 @@ const KEYSIGHT_JOB = {
   description: KEYSIGHT_DESC,
   date: 'June 2018 - September 2018',
   jobLink: 'https://www.keysight.com/',
+  jobLinkTitle: 'Keysight Technologies',
   uid: 2,
 };
 
