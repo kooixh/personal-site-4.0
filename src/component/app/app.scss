@@ -21,6 +21,7 @@ a {
 
 .primary-link {
   color: $primary-light-red;
+
   &:hover {
     color: $primary-red;
     text-decoration: none;
@@ -31,7 +32,7 @@ p {
   font-size: $page-paragraph-font-size
 }
 
-.inner-heading{
+.inner-heading {
   font-size: $page-inner-heading-font-size;
 }
 
@@ -74,7 +75,7 @@ p {
   .heading {
     font-size: 1.5em;
   }
-  .inner-heading{
+  .inner-heading {
     font-size: 1.1em;
   }
   .page-header {
@@ -92,7 +93,7 @@ p {
   .heading {
     font-size: 2em;
   }
-  .inner-heading{
+  .inner-heading {
     font-size: 1.5em;
   }
   .page-header {

@@ -1,46 +1,40 @@
-$header-font-size: 1.7vw;
+$header-font-size: 120%;
 $nav-bar-link-font-size: 120%;
 $header-link-padding: 0.25em 2em;
 $logo-pic-width: 3.5em;
 $logo-pic-width-active: 4em;
 
 #basic-navbar-nav a {
-    color: $primary-light-red;
+  color: $primary-light-red;
 
-    &:active, &:focus, &:hover {
-        color: $primary-red;
-    }
+  &:active, &:focus, &:hover {
+    color: $primary-red;
+  }
 }
 
 .headerWrapper {
-    background: $primary-black;
-    font-size: $header-font-size;
-    border-radius: 20px;
+  background: $primary-black;
+  font-size: $header-font-size;
+  border-radius: 20px;
 }
 
 
 .logoWrap img {
-    display: inline;
-    width: $logo-pic-width;
+  display: inline;
+  width: $logo-pic-width;
 }
 
 .logoWrapActive img {
-    display: inline;
-    width: $logo-pic-width-active;
+  display: inline;
+  width: $logo-pic-width-active;
 }
 
 .navBar {
-    font-size: $header-font-size;
+  font-size: $header-font-size;
 }
 
 .activeLink {
-    color: $primary-light-blue !important;
-    text-decoration: underline !important;
-    font-weight: bold;
-}
-
-@media (max-width: 1000px) {
-    .navBar {
-        font-size: 2em;
-    }
+  color: $primary-light-blue !important;
+  text-decoration: underline !important;
+  font-weight: bold;
 }

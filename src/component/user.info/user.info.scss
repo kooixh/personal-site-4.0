@@ -1,15 +1,16 @@
 $profile-pic-border: 0.5rem solid #ff847c;
 
 .infolink {
-    color: $primary-light-red;
-    &:hover {
-        color: $primary-red;
-        text-decoration: none;
-    }
+  color: $primary-light-red;
+
+  &:hover {
+    color: $primary-red;
+    text-decoration: none;
+  }
 }
 
 .profilepic {
-    height: auto;
-    width: auto;
-    border: $profile-pic-border;
+  height: auto;
+  width: auto;
+  border: $profile-pic-border;
 }
