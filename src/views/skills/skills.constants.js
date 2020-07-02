@@ -1,5 +1,3 @@
-import React from "react";
-
 export const TECH_ICONS = [
     {
         icon: 'cib-java',
