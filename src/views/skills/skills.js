@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import { TECH_ICONS, TECH_PREF } from '@app/views/skills/skills.constants';
 import './skills.scss';
-import Emoji from '@app/component/emoji';
+import Emoji from '@app/components/emoji';
 
 function SkillsHelmet() {
     return (
