@@ -68,30 +68,29 @@ export const TECH_ICONS = [
 ];
 
 export const TECH_PREF = [
-
     {
-        name: "Backend Web Development",
-        emoji: "💻",
-        emojiLabel: "laptop"
+        name: 'Backend Web Development',
+        emoji: '💻',
+        emojiLabel: 'laptop',
     },
     {
-        name: "Mobile App Development",
-        emoji: "📱",
-        emojiLabel: "mobile"
+        name: 'Mobile App Development',
+        emoji: '📱',
+        emojiLabel: 'mobile',
     },
     {
-        name: "Cloud Technologies",
-        emoji: "☁️",
-        emojiLabel: "cloud technologies"
+        name: 'Cloud Technologies',
+        emoji: '☁️',
+        emojiLabel: 'cloud technologies',
     },
     {
-        name: "DevOps and Automation",
-        emoji: "⚙️",
-        emojiLabel: "devops"
+        name: 'DevOps and Automation',
+        emoji: '⚙️',
+        emojiLabel: 'devops',
     },
     {
-        name: "Agile Methodologies",
-        emoji: "🔄",
-        emojiLabel: "agile"
-    }
+        name: 'Agile Methodologies',
+        emoji: '🔄',
+        emojiLabel: 'agile',
+    },
 ];

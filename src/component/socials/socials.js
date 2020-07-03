@@ -1,6 +1,6 @@
 import React from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {SOCIALS} from './socials.constants';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { SOCIALS } from './socials.constants';
 
 import './socials.scss';
 
@@ -9,7 +9,7 @@ function renderSocials() {
     SOCIALS.forEach((elem) => {
         list.push(
             <a className="socialsIcon mt-2 primary-link" href={elem.url} key={elem.uid}>
-                <FontAwesomeIcon icon={elem.icon} className="socialsButton"/>
+                <FontAwesomeIcon icon={elem.icon} className="socialsButton" />
             </a>
         );
     });

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import UserInfo from '@app/component/user.info';
 import Education from '@app/component/education';
 import Experience from '../../component/experience';
@@ -11,7 +11,7 @@ function ProfileHelmet() {
     return (
         <Helmet>
             <title>Xiu Hong Profile</title>
-            <meta name="description" content="My basic info and socials links"/>
+            <meta name="description" content="My basic info and socials links" />
         </Helmet>
     );
 }
@@ -19,11 +19,11 @@ function ProfileHelmet() {
 export function Profile() {
     return (
         <article className="content mt-3">
-            <ProfileHelmet/>
+            <ProfileHelmet />
             <div>
-                <UserInfo/>
-                <Experience/>
-                <Education/>
+                <UserInfo />
+                <Experience />
+                <Education />
             </div>
         </article>
     );
