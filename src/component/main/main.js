@@ -1,14 +1,14 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from '@app/component/footer';
 
-import {routes} from '@app/views';
+import { routes } from '@app/views';
 import Header from '../header';
 
 function generateRoutes() {
     const routesRotuer = [];
     routes.forEach((elem) => {
-        routesRotuer.push(<Route exact path={elem.path} render={elem.render} key={elem.uid}/>);
+        routesRotuer.push(<Route exact path={elem.path} render={elem.render} key={elem.uid} />);
     });
     return routesRotuer;
 }
@@ -18,9 +18,9 @@ export function Main() {
     return (
         <div>
             <Router>
-                <Header/>
+                <Header />
                 <Switch>{routers}</Switch>
-                <Footer/>
+                <Footer />
             </Router>
         </div>
     );

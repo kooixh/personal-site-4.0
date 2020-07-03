@@ -3,8 +3,8 @@ import React from 'react';
 import Logo from '@app/assets/logo/logo.png';
 
 import './header.scss';
-import {Navbar, Nav} from 'react-bootstrap';
-import {NavLink} from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const links = [
     {
@@ -49,9 +49,9 @@ function Header() {
     return (
         <Navbar className="headerWrapper mt-3" expand="lg" variant="dark">
             <NavLink exact to="/" className="logoWrap" activeClassName="logoWrapActive">
-                <img src={Logo} alt="site logo"/>
+                <img src={Logo} alt="site logo" />
             </NavLink>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" id="primary-navbar-toggle"/>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" id="primary-navbar-toggle" />
 
             <Navbar.Collapse id="basic-navbar-nav" className="ml-4 pt-2 pb-2 navBar">
                 <Nav className="mr-auto">{navLinks}</Nav>
