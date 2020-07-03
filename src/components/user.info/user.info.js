@@ -1,7 +1,7 @@
 import React from 'react';
-import Socials from '@app/component/socials';
+import Socials from '@app/components/socials';
 
-import Emoji from '@app/component/emoji';
+import Emoji from '@app/components/emoji';
 
 import { CV, ProfilePic } from '@app/assets/profile/profile.assets';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import UserInfo from '@app/component/user.info';
-import Education from '@app/component/education';
-import Experience from '../../component/experience';
+import UserInfo from '@app/components/user.info';
+import Education from '@app/components/education';
+import Experience from '../../components/experience';
 
 import './profile.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';

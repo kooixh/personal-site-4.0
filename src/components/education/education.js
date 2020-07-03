@@ -1,8 +1,8 @@
 import React from 'react';
-import Emoji from '@app/component/emoji';
+import Emoji from '@app/components/emoji';
 
-import { SCHOOLS } from '@app/component/education/education.constants';
-import SchoolCard from '@app/component/card/school/card.school';
+import { SCHOOLS } from '@app/components/education/education.constants';
+import SchoolCard from '@app/components/card/school/card.school';
 
 function renderSchools() {
     const schools = [];

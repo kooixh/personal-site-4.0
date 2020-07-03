@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { PROJECT_DATA } from '@app/views/projects/projects.data';
-import Emoji from '@app/component/emoji';
+import Emoji from '@app/components/emoji';
 import { Helmet } from 'react-helmet';
 import NotFound from '@app/views/notfound';
 

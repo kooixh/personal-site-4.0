@@ -1,9 +1,9 @@
 import React from 'react';
-import JobCard from '@app/component/card/job';
+import JobCard from '@app/components/card/job';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Emoji from '@app/component/emoji';
+import Emoji from '@app/components/emoji';
 import { JOBS } from './experience.constants';
 
 function renderJobs() {
