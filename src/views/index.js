@@ -9,26 +9,31 @@ export const routes = [
     {
         path: '/skills',
         render: () => <Skills />,
+        status: 200,
         uid: 1,
     },
     {
         path: '/projects/:pid',
         render: (props) => <ProjectDetails id={props.match.params.pid} />,
+        status: 200,
         uid: 2,
     },
     {
         path: '/projects',
         render: () => <Project />,
+        status: 200,
         uid: 3,
     },
     {
         path: '/',
         render: () => <Profile />,
+        status: 200,
         uid: 4,
     },
     {
-        path: '',
+        path: '*',
         render: () => <NotFound />,
+        status: 404,
         uid: 5,
     },
 ];
