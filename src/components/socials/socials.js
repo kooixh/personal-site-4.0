@@ -8,7 +8,7 @@ function renderSocials() {
     const list = [];
     SOCIALS.forEach((elem) => {
         list.push(
-            <a className="socialsIcon mt-2 primary-link" href={elem.url} key={elem.uid}>
+            <a className="socialsIcon mt-2 primary-link" title={elem.tooltip} href={elem.url} key={elem.uid}>
                 <FontAwesomeIcon icon={elem.icon} className="socialsButton" />
             </a>
         );
