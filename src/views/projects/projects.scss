@@ -1,16 +1,31 @@
+body.dark-mode {
+  & .tableHeadRecord th {
+    color: $primary-red;
+  }
+
+  & .tableHeadRecord td {
+    color: $primary-light-blue;
+  }
+}
+
+body.light-mode {
+  & .tableHeadRecord th {
+    color: $primary-gray;
+  }
+
+  & .tableHeadRecord td {
+    color: $primary-dark-blue;
+  }
+}
+
 .tableHeadRecord th {
-  color: $primary-red;
   font-weight: bold;
 }
 
-.tableHeadRecord td {
-  color: $primary-light-blue;
-}
 
 .projects-link {
   list-style-type: none;
   font-size: $page-inner-heading-font-size;
-  color: $primary-red;
 }
 
 @media (max-width: 1000px) {

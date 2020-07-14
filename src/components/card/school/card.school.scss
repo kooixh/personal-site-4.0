@@ -4,3 +4,11 @@ $school-grades-font-size: 0.75em;
   font-size: $school-grades-font-size;
   color: $primary-light-red;
 }
+
+body.dark-mode .grades {
+  color: $primary-light-red;
+}
+
+body.light-mode .grades {
+  color: $primary-dark-blue;
+}
