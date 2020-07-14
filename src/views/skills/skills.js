@@ -15,14 +15,20 @@ function SkillsHelmet() {
     );
 }
 
+function TechIcon({props}) {
+    return (
+        <a href={props.href} className="primary-link" title={props.title}>
+            <CoreUiIcon icon={props.icon}/>
+        </a>
+    )
+}
+
 function renderTechStack() {
     const icons = [];
     TECH_ICONS.forEach((elem) => {
         icons.push(
             <li className="list-inline-item tech-icons pr-2" key={elem.uid}>
-                <a href={elem.href} className="primary-link" title={elem.title}>
-                    <CoreUiIcon icon={elem.icon}/>
-                </a>
+                <TechIcon props={elem}/>
             </li>
         );
     });
