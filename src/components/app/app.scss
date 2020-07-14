@@ -31,16 +31,10 @@ body.dark-mode {
 
   & .content {
     border: $content-border;
-    border-radius: $content-border-radius;
-    font-family: $primary-font;
   }
 
   & .page-header {
-    padding-top: 0;
-    font-size: $page-banner-font-size;
     color: $primary-dark-green;
-    margin-bottom: 0;
-    font-weight: bold;
   }
 
 }
@@ -53,21 +47,17 @@ body.light-mode {
   }
   & a {
     color: $primary-blue;
-
     &:hover {
       color: $primary-dark-blue;
     }
   }
-
   & .primary-link {
     color: $primary-blue;
-
     &:hover {
       color: $primary-dark-blue;
       text-decoration: none;
     }
   }
-
   & .content {
     border: $content-border-light-mode;
   }
@@ -79,7 +69,6 @@ body.light-mode {
 }
 
 .content {
-  border: $content-border;
   border-radius: $content-border-radius;
   font-family: $primary-font;
 }
@@ -90,7 +79,6 @@ body.light-mode {
   margin-bottom: 0;
   font-weight: bold;
 }
-
 
 p {
   font-size: $page-paragraph-font-size
