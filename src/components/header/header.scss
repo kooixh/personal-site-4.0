@@ -5,7 +5,7 @@ $logo-pic-width: 3.5em;
 $logo-pic-width-active: 4em;
 
 body.dark-mode {
-  .headerWrapper {
+  .header-wrapper {
     background: $primary-black;
   }
   & #basic-navbar-nav a {
@@ -15,13 +15,13 @@ body.dark-mode {
       color: $primary-text-dark-mode;
     }
   }
-  & .activeLink {
+  & .active-link {
     color: $primary-active-nav-dark-mode !important;
   }
 }
 
 body.light-mode {
-  .headerWrapper {
+  .header-wrapper {
     background: $primary-white;
   }
 
@@ -32,32 +32,32 @@ body.light-mode {
       color: $secondary-text-light-mode;
     }
   }
-  & .activeLink {
+  & .active-link {
     color: $secondary-text-light-mode !important;
   }
 }
 
-.headerWrapper {
+.header-wrapper {
   font-size: $header-font-size;
   border-radius: 20px;
 }
 
 
-.logoWrap img {
+.logo-wrap img {
   display: inline;
   width: $logo-pic-width;
 }
 
-.logoWrapActive img {
+.logo-wrap-active img {
   display: inline;
   width: $logo-pic-width-active;
 }
 
-.navBar {
+.nav-bar {
   font-size: $header-font-size;
 }
 
-.activeLink {
+.active-link {
   text-decoration: underline !important;
   font-weight: bold;
 }

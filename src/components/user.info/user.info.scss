@@ -1,16 +1,16 @@
 $profile-pic-border: 0.5rem solid #ff847c;
 $profile-pic-border-light-mode: 0.5rem solid #007BB3;
 
-.profilepic {
+.profile-pic {
   height: auto;
   width: auto;
 
 }
 
-body.dark-mode .profilepic {
+body.dark-mode .profile-pic {
   border: $profile-pic-border;
 }
 
-body.light-mode .profilepic {
+body.light-mode .profile-pic {
   border: $profile-pic-border-light-mode;
 }
