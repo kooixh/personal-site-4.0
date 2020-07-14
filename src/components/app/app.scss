@@ -2,30 +2,82 @@ html {
   height: $page-height;
   width: $page-width;
   line-height: $content-line-height;
-  background: $primary-black;
   margin: auto;
   font-family: $primary-font
 }
 
-h1, h2, h3, h4, h5, p {
-  color: $primary-red;
-}
-
-a {
-  color: $primary-light-red;
-
-  &:hover {
+body.dark-mode {
+  width: 100%;
+  background: $primary-black;
+  & h1, & h2, & h3, & h4, & h5, & p {
     color: $primary-red;
   }
+  & a {
+    color: $primary-light-red;
+
+    &:hover {
+      color: $primary-red;
+    }
+  }
+
+  & .primary-link {
+    color: $primary-light-red;
+
+    &:hover {
+      color: $primary-red;
+      text-decoration: none;
+    }
+  }
+
+  & .content {
+    border: $content-border;
+  }
+
+  & .page-header {
+    color: $primary-dark-green;
+  }
+
 }
 
-.primary-link {
-  color: $primary-light-red;
-
-  &:hover {
-    color: $primary-red;
-    text-decoration: none;
+body.light-mode {
+  width: 100%;
+  background: $primary-white;
+  & h1, & h2, & h3, & h4, & h5, & p {
+    color: $primary-black;
   }
+  & a {
+    color: $primary-blue;
+    &:hover {
+      color: $primary-dark-blue;
+    }
+  }
+  & .primary-link {
+    color: $primary-blue;
+    &:hover {
+      color: $primary-dark-blue;
+      text-decoration: none;
+    }
+  }
+  & .content {
+    border: $content-border-light-mode;
+  }
+
+  & .page-header {
+    color: $primary-gray;
+  }
+
+}
+
+.content {
+  border-radius: $content-border-radius;
+  font-family: $primary-font;
+}
+
+.page-header {
+  padding-top: 0;
+  font-size: $page-banner-font-size;
+  margin-bottom: 0;
+  font-weight: bold;
 }
 
 p {
@@ -36,12 +88,6 @@ p {
   font-size: $page-inner-heading-font-size;
 }
 
-.content {
-  border: $content-border;
-  border-radius: $content-border-radius;
-  font-family: $primary-font;
-}
-
 .subheading {
   font-weight: $page-subheading-font-weight;
   font-size: $page-subheading-font-size;
@@ -49,18 +95,6 @@ p {
 
 .heading {
   font-size: $page-heading-font-size;
-  font-weight: bold;
-}
-
-.primary-light-red-text {
-  color: $primary-light-red;
-}
-
-.page-header {
-  padding-top: 0;
-  font-size: $page-banner-font-size;
-  color: $primary-dark-green;
-  margin-bottom: 0;
   font-weight: bold;
 }
 

@@ -4,16 +4,40 @@ $header-link-padding: 0.25em 2em;
 $logo-pic-width: 3.5em;
 $logo-pic-width-active: 4em;
 
-#basic-navbar-nav a {
-  color: $primary-light-red;
+body.dark-mode {
+  .headerWrapper {
+    background: $primary-black;
+  }
+  & #basic-navbar-nav a {
+    color: $primary-light-red;
 
-  &:active, &:focus, &:hover {
-    color: $primary-red;
+    &:active, &:focus, &:hover {
+      color: $primary-red;
+    }
+  }
+  & .activeLink {
+    color: $primary-light-blue !important;
+  }
+}
+
+body.light-mode {
+  .headerWrapper {
+    background: $primary-white;
+  }
+
+  & #basic-navbar-nav a {
+    color: $primary-blue;
+
+    &:active, &:focus, &:hover {
+      color: $primary-dark-blue;
+    }
+  }
+  & .activeLink {
+    color: $primary-dark-blue !important;
   }
 }
 
 .headerWrapper {
-  background: $primary-black;
   font-size: $header-font-size;
   border-radius: 20px;
 }
@@ -34,7 +58,6 @@ $logo-pic-width-active: 4em;
 }
 
 .activeLink {
-  color: $primary-light-blue !important;
   text-decoration: underline !important;
   font-weight: bold;
 }

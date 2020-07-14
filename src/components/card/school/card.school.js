@@ -20,7 +20,7 @@ export function SchoolCard({ props }) {
                 <p className="mb-3">{props.dissertation}</p>
             </div>
             <div className="col text-center">
-                <p className="inner-heading font-weight-bold d-inline primary-light-red-text">{props.date}</p>
+                <p className="inner-heading font-weight-bold d-inline">{props.date}</p>
             </div>
         </div>
     );
