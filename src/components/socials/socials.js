@@ -2,7 +2,7 @@ import React from 'react';
 import { SOCIALS } from './socials.constants';
 
 import './socials.scss';
-import CoreUiIcon from "@app/components/icons/coreui/coreui.icons";
+import CoreUiIcon from "@app/components/icons/coreui";
 
 
 function SocialIcon({props}) {

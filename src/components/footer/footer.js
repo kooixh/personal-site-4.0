@@ -1,5 +1,5 @@
 import React from 'react';
-import DarkModeToggle from "@app/components/dark.mode/toggle/dark.mode.toggle";
+import DarkModeToggle from "@app/components/dark.mode/toggle";
 
 function Footer() {
     return (
