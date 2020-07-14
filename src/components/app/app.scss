@@ -2,9 +2,48 @@ html {
   height: $page-height;
   width: $page-width;
   line-height: $content-line-height;
-  background: $primary-black;
   margin: auto;
   font-family: $primary-font
+}
+
+body.dark-mode {
+  width: 100%;
+  background: $primary-black;
+  & h1, & h2, & h3, & h4, & h5, & p {
+    color: $primary-red;
+  }
+  & a {
+    color: $primary-light-red;
+
+    &:hover {
+      color: $primary-red;
+    }
+  }
+
+
+  & .primary-link {
+    color: $primary-light-red;
+
+    &:hover {
+      color: $primary-red;
+      text-decoration: none;
+    }
+  }
+
+  & .content {
+    border: $content-border;
+    border-radius: $content-border-radius;
+    font-family: $primary-font;
+  }
+
+  & .page-header {
+    padding-top: 0;
+    font-size: $page-banner-font-size;
+    color: $primary-dark-green;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
 }
 
 h1, h2, h3, h4, h5, p {
@@ -28,30 +67,6 @@ a {
   }
 }
 
-p {
-  font-size: $page-paragraph-font-size
-}
-
-.inner-heading {
-  font-size: $page-inner-heading-font-size;
-}
-
-.content {
-  border: $content-border;
-  border-radius: $content-border-radius;
-  font-family: $primary-font;
-}
-
-.subheading {
-  font-weight: $page-subheading-font-weight;
-  font-size: $page-subheading-font-size;
-}
-
-.heading {
-  font-size: $page-heading-font-size;
-  font-weight: bold;
-}
-
 .primary-light-red-text {
   color: $primary-light-red;
 }
@@ -61,6 +76,30 @@ p {
   font-size: $page-banner-font-size;
   color: $primary-dark-green;
   margin-bottom: 0;
+  font-weight: bold;
+}
+
+.content {
+  border: $content-border;
+  border-radius: $content-border-radius;
+  font-family: $primary-font;
+}
+
+p {
+  font-size: $page-paragraph-font-size
+}
+
+.inner-heading {
+  font-size: $page-inner-heading-font-size;
+}
+
+.subheading {
+  font-weight: $page-subheading-font-weight;
+  font-size: $page-subheading-font-size;
+}
+
+.heading {
+  font-size: $page-heading-font-size;
   font-weight: bold;
 }
 
