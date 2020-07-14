@@ -1,6 +1,3 @@
-import { faFacebook, faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
 export const SOCIALS = [
     {
         url: 'https://www.linkedin.com/in/kooixh',
