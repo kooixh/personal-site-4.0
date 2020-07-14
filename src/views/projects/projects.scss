@@ -30,12 +30,12 @@ body.light-mode {
 
 @media (max-width: 1000px) {
   .projects-link {
-    font-size: 1.1em;
+    font-size: $page-paragraph-min-font-size
   }
 }
 
 @media (min-width: 1250px) {
   .projects-link {
-    font-size: 1.5em;
+    font-size: $page-paragraph-max-font-size
   }
 }
