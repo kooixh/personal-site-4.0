@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { TECH_ICONS, TECH_PREF } from '@app/views/skills/skills.constants';
 import './skills.scss';
 import Emoji from '@app/components/emoji';
+import CoreUiIcon from "@app/components/icons/coreui/coreui.icons";
 
 function SkillsHelmet() {
     return (
@@ -20,7 +21,7 @@ function renderTechStack() {
         icons.push(
             <li className="list-inline-item tech-icons pr-2" key={elem.uid}>
                 <a href={elem.href} className="primary-link" title={elem.title}>
-                    <i className={elem.icon} />
+                    <CoreUiIcon icon={elem.icon}/>
                 </a>
             </li>
         );
