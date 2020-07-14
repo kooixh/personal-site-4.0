@@ -20,7 +20,6 @@ body.dark-mode {
     }
   }
 
-
   & .primary-link {
     color: $primary-light-red;
 
@@ -46,37 +45,37 @@ body.dark-mode {
 
 }
 
-h1, h2, h3, h4, h5, p {
-  color: $primary-red;
-}
-
-a {
-  color: $primary-light-red;
-
-  &:hover {
-    color: $primary-red;
+body.light-mode {
+  width: 100%;
+  background: $primary-white;
+  & h1, & h2, & h3, & h4, & h5, & p {
+    color: $primary-black;
   }
-}
+  & a {
+    color: $primary-blue;
 
-.primary-link {
-  color: $primary-light-red;
-
-  &:hover {
-    color: $primary-red;
-    text-decoration: none;
+    &:hover {
+      color: $primary-dark-blue;
+    }
   }
-}
 
-.primary-light-red-text {
-  color: $primary-light-red;
-}
+  & .primary-link {
+    color: $primary-blue;
 
-.page-header {
-  padding-top: 0;
-  font-size: $page-banner-font-size;
-  color: $primary-dark-green;
-  margin-bottom: 0;
-  font-weight: bold;
+    &:hover {
+      color: $primary-dark-blue;
+      text-decoration: none;
+    }
+  }
+
+  & .content {
+    border: $content-border-light-mode;
+  }
+
+  & .page-header {
+    color: $primary-gray;
+  }
+
 }
 
 .content {
@@ -84,6 +83,14 @@ a {
   border-radius: $content-border-radius;
   font-family: $primary-font;
 }
+
+.page-header {
+  padding-top: 0;
+  font-size: $page-banner-font-size;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
 
 p {
   font-size: $page-paragraph-font-size

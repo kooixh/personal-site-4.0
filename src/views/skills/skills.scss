@@ -2,6 +2,19 @@
   font-size: 350%;
 }
 
+body.dark-mode {
+  & .work-preference {
+    color: $primary-red;
+  }
+}
+
+body.light-mode {
+  & .work-preference {
+    color: $primary-dark-blue;
+  }
+}
+
+
 .work-preference {
   list-style-type: none;
   font-size: $page-subheading-font-size;

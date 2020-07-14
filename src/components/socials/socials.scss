@@ -4,6 +4,23 @@ $socials-icons-margin-right: 1em;
 $socials-icons-height: 3.5rem;
 $socials-icons-width: 3.5rem;
 
+
+body.dark-mode .socialsIcon {
+  background-color: $primary-light-red;
+  &:hover {
+    background-color: $primary-red;
+  }
+}
+
+body.light-mode .socialsIcon {
+  background-color: $primary-blue;
+  &:hover {
+    background-color: $primary-dark-blue;
+  }
+}
+
+
+
 .socialsIcon {
   display: inline-block;
   height: $socials-icons-height;
