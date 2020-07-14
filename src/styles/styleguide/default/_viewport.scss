@@ -1,8 +1,9 @@
+@import "theme";
 $page-height: 100%;
 $page-width: 95%;
 
-$content-border: #00FFFF solid 3px;
-$content-border-light-mode: #000000 solid 3px;
+$content-border: $primary-border-dark-mode solid 3px;
+$content-border-light-mode: $primary-black solid 3px;
 
 $content-border-radius: 20px;
 

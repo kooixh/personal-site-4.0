@@ -2,13 +2,13 @@ $page-error-font-size: 6.75vw;
 $page-message-font-size: 3vw;
 
 .error-header {
-  color: $primary-dark-green;
+  color: $primary-header-dark-mode;
   font-size: $page-error-font-size;
 }
 
 .error-message {
   font-size: $page-message-font-size;
-  color: $primary-red;
+  color: $primary-text-dark-mode;
 }
 
 @media (max-width: 1000px) {

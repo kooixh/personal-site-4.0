@@ -48,7 +48,7 @@ export function UserInfo() {
                 <div className="col mr-3">
                     <span>
                         <img
-                            className="img-fluid img-profile rounded-circle mb-2 profilepic"
+                            className="img-fluid img-profile rounded-circle mb-2 profile-pic"
                             src={ProfilePic}
                             alt="profile"
                         />

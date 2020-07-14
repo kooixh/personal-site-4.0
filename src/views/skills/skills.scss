@@ -4,13 +4,13 @@
 
 body.dark-mode {
   & .work-preference {
-    color: $primary-red;
+    color: $primary-text-dark-mode;
   }
 }
 
 body.light-mode {
   & .work-preference {
-    color: $primary-dark-blue;
+    color: $secondary-text-light-mode;
   }
 }
 
@@ -18,17 +18,17 @@ body.light-mode {
 .work-preference {
   list-style-type: none;
   font-size: $page-subheading-font-size;
-  color: $primary-red;
+  color: $primary-text-dark-mode;
 }
 
 @media (max-width: 1000px) {
   .work-preference {
-    font-size: 1.2em;
+    font-size: $page-subheading-min-font-size
   }
 }
 
 @media (min-width: 1250px) {
   .work-preference {
-    font-size: 1.75em;
+    font-size: $page-subheading-max-font-size
   }
 }

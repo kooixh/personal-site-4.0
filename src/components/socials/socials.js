@@ -7,8 +7,8 @@ import CoreUiIcon from "@app/components/icons/coreui";
 
 function SocialIcon({props}) {
     return (
-        <a className="socialsIcon mt-2 primary-link" title={props.tooltip} href={props.url} key={props.uid}>
-            <CoreUiIcon icon={props.icon} className="socialsButton" />
+        <a className="socials-icon mt-2 primary-link" title={props.tooltip} href={props.url} key={props.uid}>
+            <CoreUiIcon icon={props.icon}/>
         </a>
     )
 }

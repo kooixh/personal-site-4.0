@@ -1,24 +1,24 @@
 body.dark-mode {
-  & .tableHeadRecord th {
-    color: $primary-red;
+  & .table-head-record th {
+    color: $primary-text-dark-mode;
   }
 
-  & .tableHeadRecord td {
-    color: $primary-light-blue;
+  & .table-head-record td {
+    color: $primary-active-nav-dark-mode;
   }
 }
 
 body.light-mode {
-  & .tableHeadRecord th {
-    color: $primary-gray;
+  & .table-head-record th {
+    color: $primary-header-light-mode;
   }
 
-  & .tableHeadRecord td {
-    color: $primary-dark-blue;
+  & .table-head-record td {
+    color: $secondary-text-light-mode;
   }
 }
 
-.tableHeadRecord th {
+.table-head-record th {
   font-weight: bold;
 }
 
@@ -30,12 +30,12 @@ body.light-mode {
 
 @media (max-width: 1000px) {
   .projects-link {
-    font-size: 1.1em;
+    font-size: $page-paragraph-min-font-size
   }
 }
 
 @media (min-width: 1250px) {
   .projects-link {
-    font-size: 1.5em;
+    font-size: $page-paragraph-max-font-size
   }
 }

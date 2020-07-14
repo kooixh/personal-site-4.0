@@ -35,7 +35,7 @@ function renderLink() {
                 {elem.label}
             </a>
         ) : (
-            <NavLink to={elem.href} className="ml-3 mr-3" activeClassName="activeLink" key={elem.uid}>
+            <NavLink to={elem.href} className="ml-3 mr-3" activeClassName="active-link" key={elem.uid}>
                 {elem.label}
             </NavLink>
         );
@@ -47,13 +47,13 @@ function renderLink() {
 function Header() {
     const navLinks = renderLink();
     return (
-        <Navbar className="headerWrapper mt-3" expand="lg" variant="dark">
-            <NavLink exact to="/" className="logoWrap" activeClassName="logoWrapActive">
+        <Navbar className="header-wrapper mt-3" expand="lg" variant="dark">
+            <NavLink exact to="/" className="logo-wrap" activeClassName="logo-wrap-active">
                 <img src={Logo} alt="site logo" />
             </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav" id="primary-navbar-toggle" />
 
-            <Navbar.Collapse id="basic-navbar-nav" className="ml-4 pt-2 pb-2 navBar">
+            <Navbar.Collapse id="basic-navbar-nav" className="ml-4 pt-2 pb-2 nav-bar">
                 <Nav className="mr-auto">{navLinks}</Nav>
             </Navbar.Collapse>
         </Navbar>

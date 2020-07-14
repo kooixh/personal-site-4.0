@@ -19,7 +19,7 @@ function ProjectHelmet() {
 function ProjectTableHead() {
     return (
         <thead>
-            <tr className="tableHeadRecord">
+            <tr className="table-head-record">
                 <th>Project Name</th>
                 <th>Description</th>
                 <th />
@@ -39,7 +39,7 @@ function renderProjectContent() {
 function ProjectBodyContent({ prop }) {
     const projectHref = `/projects/${prop.uid}`;
     return (
-        <tr className="tableHeadRecord">
+        <tr className="table-head-record">
             <td>{prop.name}</td>
             <td>{prop.description}</td>
             <td>

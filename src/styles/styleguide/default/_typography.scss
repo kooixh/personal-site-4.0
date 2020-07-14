@@ -1,6 +1,5 @@
 $primary-font: 'Roboto', sans-serif;
 
-$page-title-font-size: 6.5vw;
 $page-banner-font-size: 6.5vw;
 $page-heading-font-size: 2.9vw;
 $page-subheading-font-size: 2.15vw;
@@ -8,3 +7,18 @@ $page-inner-heading-font-size: 1.8vw;
 $page-paragraph-font-size: 1.7vw;
 
 $page-subheading-font-weight: 500;
+
+
+// Page Min
+$page-banner-min-font-size: 2.5em;
+$page-heading-min-font-size: 1.5em;
+$page-subheading-min-font-size: 1.2em;
+$page-inner-heading-min-font-size: 1.1em;
+$page-paragraph-min-font-size: 1.1em;
+
+// Page Max
+$page-banner-max-font-size: 4.5em;
+$page-heading-max-font-size: 2em;
+$page-subheading-max-font-size: 1.75em;
+$page-inner-heading-max-font-size: 1.5em;
+$page-paragraph-max-font-size: 1.5em;

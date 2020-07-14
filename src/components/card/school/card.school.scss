@@ -5,9 +5,9 @@ $school-grades-font-size: 0.75em;
 }
 
 body.dark-mode .grades {
-  color: $primary-light-red;
+  color: $primary-link-dark-mode;
 }
 
 body.light-mode .grades {
-  color: $primary-dark-blue;
+  color: $secondary-text-light-mode;
 }

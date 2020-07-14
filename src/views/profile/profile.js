@@ -4,7 +4,6 @@ import UserInfo from '@app/components/user.info';
 import Education from '@app/components/education';
 import Experience from '../../components/experience';
 
-import './profile.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProfileHelmet() {

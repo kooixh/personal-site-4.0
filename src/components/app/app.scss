@@ -10,21 +10,21 @@ body.dark-mode {
   width: 100%;
   background: $primary-black;
   & h1, & h2, & h3, & h4, & h5, & p {
-    color: $primary-red;
+    color: $primary-text-dark-mode;
   }
   & a {
-    color: $primary-light-red;
+    color: $primary-link-dark-mode;
 
     &:hover {
-      color: $primary-red;
+      color: $primary-text-dark-mode;
     }
   }
 
   & .primary-link {
-    color: $primary-light-red;
+    color: $primary-link-dark-mode;
 
     &:hover {
-      color: $primary-red;
+      color: $primary-text-dark-mode;
       text-decoration: none;
     }
   }
@@ -34,7 +34,7 @@ body.dark-mode {
   }
 
   & .page-header {
-    color: $primary-dark-green;
+    color: $primary-header-dark-mode;
   }
 
 }
@@ -46,15 +46,15 @@ body.light-mode {
     color: $primary-black;
   }
   & a {
-    color: $primary-blue;
+    color: $primary-link-light-mode;
     &:hover {
-      color: $primary-dark-blue;
+      color: $secondary-text-light-mode;
     }
   }
   & .primary-link {
-    color: $primary-blue;
+    color: $primary-link-light-mode;
     &:hover {
-      color: $primary-dark-blue;
+      color: $secondary-text-light-mode;
       text-decoration: none;
     }
   }
@@ -63,7 +63,7 @@ body.light-mode {
   }
 
   & .page-header {
-    color: $primary-gray;
+    color: $primary-header-light-mode;
   }
 
 }
@@ -100,36 +100,36 @@ p {
 
 @media (max-width: 1000px) {
   p {
-    font-size: 1.1em;
+    font-size: $page-paragraph-min-font-size;
   }
   .subheading {
-    font-size: 1.20em;
+    font-size: $page-subheading-min-font-size;
   }
   .heading {
-    font-size: 1.5em;
+    font-size: $page-heading-min-font-size;
   }
   .inner-heading {
-    font-size: 1.1em;
+    font-size: $page-inner-heading-min-font-size;
   }
   .page-header {
-    font-size: 2.5em;
+    font-size: $page-banner-min-font-size;
   }
 }
 
 @media (min-width: 1250px) {
   p {
-    font-size: 1.5em;
+    font-size: $page-paragraph-max-font-size;
   }
   .subheading {
-    font-size: 1.75em;
+    font-size: $page-subheading-max-font-size;
   }
   .heading {
-    font-size: 2em;
+    font-size: $page-heading-max-font-size;
   }
   .inner-heading {
-    font-size: 1.5em;
+    font-size: $page-inner-heading-max-font-size;
   }
   .page-header {
-    font-size: 4.5em;
+    font-size: $page-banner-max-font-size;
   }
 }

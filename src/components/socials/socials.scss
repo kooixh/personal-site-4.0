@@ -5,25 +5,25 @@ $socials-icons-height: 3.5rem;
 $socials-icons-width: 3.5rem;
 
 
-body.dark-mode .socialsIcon {
+body.dark-mode .socials-icon {
   color: $primary-black !important;
-  background-color: $primary-light-red;
+  background-color: $primary-link-dark-mode;
   &:hover {
-    background-color: $primary-red;
+    background-color: $primary-text-dark-mode;
   }
 }
 
-body.light-mode .socialsIcon {
-  background-color: $primary-blue;
+body.light-mode .socials-icon {
+  background-color: $primary-link-light-mode;
   color: $primary-white !important;
 
   &:hover {
-    background-color: $primary-dark-blue;
+    background-color: $secondary-text-light-mode;
   }
 }
 
 
-.socialsIcon {
+.socials-icon {
   display: inline-block;
   height: $socials-icons-height;
   width: $socials-icons-width;
@@ -38,8 +38,4 @@ body.light-mode .socialsIcon {
     margin-right: 0;
   }
 
-}
-
-.socialsButton {
-  color: black;
 }
