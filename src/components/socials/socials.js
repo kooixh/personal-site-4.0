@@ -1,15 +1,15 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SOCIALS } from './socials.constants';
 
 import './socials.scss';
+import CoreUiIcon from "@app/components/icons/coreui/coreui.icons";
 
 function renderSocials() {
     const list = [];
     SOCIALS.forEach((elem) => {
         list.push(
             <a className="socialsIcon mt-2 primary-link" title={elem.tooltip} href={elem.url} key={elem.uid}>
-                <FontAwesomeIcon icon={elem.icon} className="socialsButton" />
+                <CoreUiIcon icon={elem.icon} className="socialsButton" />
             </a>
         );
     });

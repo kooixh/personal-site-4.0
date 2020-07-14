@@ -5,31 +5,31 @@ export const SOCIALS = [
     {
         url: 'https://www.linkedin.com/in/kooixh',
         tooltip: 'LinkedIn',
-        icon: faLinkedin,
+        icon: 'cib-linkedin',
         uid: 1,
     },
     {
         url: 'https://github.com/kooixh',
         tooltip: 'GitHub',
-        icon: faGithub,
+        icon: 'cib-github',
         uid: 2,
     },
     {
         url: 'https://twitter.com/kooixiuhong',
         tooltip: 'Twitter',
-        icon: faTwitter,
+        icon: 'cib-twitter',
         uid: 3,
     },
     {
         url: 'https://facebook.com/kooixh',
         tooltip: 'Facebook',
-        icon: faFacebook,
+        icon: 'cib-facebook',
         uid: 4,
     },
     {
         url: 'https://buymeacoff.ee/kooixh',
         tooltip: 'Buy me a coffee!',
-        icon: faCoffee,
+        icon: 'cib-buy-me-a-coffee',
         uid: 5,
     },
 ];
