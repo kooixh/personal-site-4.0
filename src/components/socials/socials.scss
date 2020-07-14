@@ -6,6 +6,7 @@ $socials-icons-width: 3.5rem;
 
 
 body.dark-mode .socialsIcon {
+  color: $primary-black !important;
   background-color: $primary-light-red;
   &:hover {
     background-color: $primary-red;
@@ -14,32 +15,29 @@ body.dark-mode .socialsIcon {
 
 body.light-mode .socialsIcon {
   background-color: $primary-blue;
+  color: $primary-white !important;
+
   &:hover {
     background-color: $primary-dark-blue;
   }
 }
 
 
-
 .socialsIcon {
   display: inline-block;
   height: $socials-icons-height;
   width: $socials-icons-width;
-  background-color: $primary-light-red;
-  color: #fff !important;
   border-radius: 100%;
   text-align: center;
   font-size: $socials-icon-font-size;
   line-height: 3.5rem;
   margin-right: $socials-icons-margin-right;
+  padding-top: .15rem;
 
   &:last-child {
     margin-right: 0;
   }
 
-  &:hover {
-    background-color: $primary-red;
-  }
 }
 
 .socialsButton {
