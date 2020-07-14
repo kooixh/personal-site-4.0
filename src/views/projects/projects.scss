@@ -1,20 +1,20 @@
 body.dark-mode {
   & .tableHeadRecord th {
-    color: $primary-red;
+    color: $primary-text-dark-mode;
   }
 
   & .tableHeadRecord td {
-    color: $primary-light-blue;
+    color: $primary-active-nav-dark-mode;
   }
 }
 
 body.light-mode {
   & .tableHeadRecord th {
-    color: $primary-gray;
+    color: $primary-header-light-mode;
   }
 
   & .tableHeadRecord td {
-    color: $primary-dark-blue;
+    color: $secondary-text-light-mode;
   }
 }
 

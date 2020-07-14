@@ -10,21 +10,21 @@ body.dark-mode {
   width: 100%;
   background: $primary-black;
   & h1, & h2, & h3, & h4, & h5, & p {
-    color: $primary-red;
+    color: $primary-text-dark-mode;
   }
   & a {
-    color: $primary-light-red;
+    color: $primary-link-dark-mode;
 
     &:hover {
-      color: $primary-red;
+      color: $primary-text-dark-mode;
     }
   }
 
   & .primary-link {
-    color: $primary-light-red;
+    color: $primary-link-dark-mode;
 
     &:hover {
-      color: $primary-red;
+      color: $primary-text-dark-mode;
       text-decoration: none;
     }
   }
@@ -34,7 +34,7 @@ body.dark-mode {
   }
 
   & .page-header {
-    color: $primary-dark-green;
+    color: $primary-header-dark-mode;
   }
 
 }
@@ -46,15 +46,15 @@ body.light-mode {
     color: $primary-black;
   }
   & a {
-    color: $primary-blue;
+    color: $primary-link-light-mode;
     &:hover {
-      color: $primary-dark-blue;
+      color: $secondary-text-light-mode;
     }
   }
   & .primary-link {
-    color: $primary-blue;
+    color: $primary-link-light-mode;
     &:hover {
-      color: $primary-dark-blue;
+      color: $secondary-text-light-mode;
       text-decoration: none;
     }
   }
@@ -63,7 +63,7 @@ body.light-mode {
   }
 
   & .page-header {
-    color: $primary-gray;
+    color: $primary-header-light-mode;
   }
 
 }

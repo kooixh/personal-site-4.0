@@ -9,14 +9,14 @@ body.dark-mode {
     background: $primary-black;
   }
   & #basic-navbar-nav a {
-    color: $primary-light-red;
+    color: $primary-link-dark-mode;
 
     &:active, &:focus, &:hover {
-      color: $primary-red;
+      color: $primary-text-dark-mode;
     }
   }
   & .activeLink {
-    color: $primary-light-blue !important;
+    color: $primary-active-nav-dark-mode !important;
   }
 }
 
@@ -26,14 +26,14 @@ body.light-mode {
   }
 
   & #basic-navbar-nav a {
-    color: $primary-blue;
+    color: $primary-link-light-mode;
 
     &:active, &:focus, &:hover {
-      color: $primary-dark-blue;
+      color: $secondary-text-light-mode;
     }
   }
   & .activeLink {
-    color: $primary-dark-blue !important;
+    color: $secondary-text-light-mode !important;
   }
 }
 
