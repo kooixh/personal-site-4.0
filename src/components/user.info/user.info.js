@@ -33,15 +33,14 @@ export function UserInfo() {
                     <div>
                         <p className="subheading">
                             Software Engineer <Emoji symbol="👨‍💻" label="tech guy" />
-                            <br />
-                            <a className="primary-link" href={CV}>
-                                CV <Emoji symbol="📄" label="document" />
-                            </a>
-                            <br />
-                            <a className="primary-link" href="mailto:xiuhong.kooi977055@gmail.com">
-                                kooixh97@gmail.com <Emoji symbol="📧" label="email" />
-                            </a>
                         </p>
+                        <a className="primary-link subheading" href={CV}>
+                            CV <Emoji symbol="📄" label="document" />
+                        </a>
+                        <br />
+                        <a className="primary-link subheading" href="mailto:xiuhong.kooi977055@gmail.com">
+                            kooixh97@gmail.com <Emoji symbol="📧" label="email" />
+                        </a>
                     </div>
                     <Socials />
                 </div>
