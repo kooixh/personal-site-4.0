@@ -11,11 +11,11 @@ body.dark-mode {
   background: $primary-black;
   & p {
     color: $primary-text-dark-mode;
-    opacity: 60%;
+    opacity: 0.6;
   }
   & h1, & h2, & h3, & h4, & h5 {
     color: $primary-text-dark-mode;
-    opacity: 87%;
+    opacity: 0.87;
   }
   & a {
     color: $primary-link-dark-mode;
@@ -49,11 +49,11 @@ body.light-mode {
   background: $primary-white;
   & p {
     color: $primary-black;
-    opacity: 60%;
+    opacity: 0.6;
   }
   & h1, & h2, & h3, & h4, & h5 {
     color: $primary-black;
-    opacity: 87%;
+    opacity: 0.87;
   }
   & a {
     color: $primary-link-light-mode;
