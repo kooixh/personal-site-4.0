@@ -9,14 +9,19 @@ html {
 body.dark-mode {
   width: 100%;
   background: $primary-black;
-  & h1, & h2, & h3, & h4, & h5, & p {
+  & p {
     color: $primary-text-dark-mode;
+    opacity: 60%;
+  }
+  & h1, & h2, & h3, & h4, & h5 {
+    color: $primary-text-dark-mode;
+    opacity: 87%;
   }
   & a {
     color: $primary-link-dark-mode;
 
     &:hover {
-      color: $primary-text-dark-mode;
+      color: $secondary-text-dark-mode;
     }
   }
 
@@ -24,7 +29,7 @@ body.dark-mode {
     color: $primary-link-dark-mode;
 
     &:hover {
-      color: $primary-text-dark-mode;
+      color: $secondary-text-dark-mode;
       text-decoration: none;
     }
   }
@@ -42,8 +47,13 @@ body.dark-mode {
 body.light-mode {
   width: 100%;
   background: $primary-white;
-  & h1, & h2, & h3, & h4, & h5, & p {
+  & p {
     color: $primary-black;
+    opacity: 60%;
+  }
+  & h1, & h2, & h3, & h4, & h5 {
+    color: $primary-black;
+    opacity: 87%;
   }
   & a {
     color: $primary-link-light-mode;
