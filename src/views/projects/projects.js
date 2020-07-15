@@ -1,11 +1,13 @@
 import React from 'react';
 import useDarkMode from "use-dark-mode";
 import { Table } from 'react-bootstrap';
-
 import { PROJECT_DATA } from '@app/views/projects/projects.data';
 
 import './projects.scss';
 import { Helmet } from 'react-helmet';
+
+import darkModeUtils from '@app/utils/dark.mode';
+
 
 function ProjectHelmet() {
     return (
@@ -57,7 +59,7 @@ function ProjectTableBody() {
 }
 
 function ProjectTable() {
-    const darkMode = useDarkMode(true);
+    const darkMode = useDarkMode(darkModeUtils.isSystemDarkMode());
     let variant = darkMode.value ? 'dark' : 'light';
     return (
         <Table striped bordered hover variant={variant}>
