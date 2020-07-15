@@ -1,11 +1,11 @@
 import React from 'react';
-import useDarkMode from "use-dark-mode";
-
-import Logo from '@app/assets/logo/logo.png';
-
-import './header.scss';
 import { Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+
+
+import Logo from '@app/assets/logo/logo.png';
+import darkModeUtils from '@app/utils/dark.mode';
+import './header.scss';
 
 const links = [
     {
@@ -47,8 +47,7 @@ function renderLink() {
 
 function Header() {
     const navLinks = renderLink();
-    const darkMode = useDarkMode(true);
-    let variant = darkMode.value ? 'dark' : 'light';
+    let variant = darkModeUtils.useThemeStatus();
     return (
         <Navbar className="header-wrapper mt-3" expand="lg" variant={variant}>
             <NavLink exact to="/" className="logo-wrap" activeClassName="logo-wrap-active">

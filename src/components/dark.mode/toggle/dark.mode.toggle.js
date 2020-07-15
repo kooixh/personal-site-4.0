@@ -1,7 +1,8 @@
 import React from 'react';
 import useDarkMode from "use-dark-mode";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import darkModeUtils from '@app/utils/dark.mode';
 
 import './dark.mode.toggle.scss';
 
@@ -22,7 +23,7 @@ function renderToggleButton(darkMode) {
 }
 
 export function DarkModeToggle() {
-    const darkMode = useDarkMode(true);
+    const darkMode = useDarkMode(darkModeUtils.isSystemDarkMode());
     return (
         renderToggleButton(darkMode)
     )
