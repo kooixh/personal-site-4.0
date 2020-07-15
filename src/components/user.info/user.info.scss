@@ -1,5 +1,5 @@
-$profile-pic-border: 0.5rem solid #ff847c;
-$profile-pic-border-light-mode: 0.5rem solid #007BB3;
+$profile-pic-border: 0.5rem solid $primary-link-dark-mode;
+$profile-pic-border-light-mode: 0.5rem solid $primary-link-light-mode;
 
 .profile-pic {
   height: auto;
