@@ -1,5 +1,4 @@
 import React from 'react';
-import useDarkMode from "use-dark-mode";
 import { Table } from 'react-bootstrap';
 import { PROJECT_DATA } from '@app/views/projects/projects.data';
 
@@ -59,8 +58,7 @@ function ProjectTableBody() {
 }
 
 function ProjectTable() {
-    const darkMode = useDarkMode(darkModeUtils.isSystemDarkMode());
-    let variant = darkMode.value ? 'dark' : 'light';
+    let variant = darkModeUtils.useThemeStatus();
     return (
         <Table striped bordered hover variant={variant}>
             <ProjectTableHead />
