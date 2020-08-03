@@ -2,7 +2,6 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-
 import Logo from '@app/assets/logo/logo.png';
 import darkModeUtils from '@app/utils/dark.mode';
 import './header.scss';

@@ -11,7 +11,7 @@ function JobName({ props }) {
             </div>
             <p>{props.description}</p>
         </div>
-    )
+    );
 }
 
 function JobDate({ props }) {
@@ -19,14 +19,14 @@ function JobDate({ props }) {
         <div className="col text-center">
             <p className="inner-heading font-weight-bold d-inline">{props.date}</p>
         </div>
-    )
+    );
 }
 
 export function JobCard({ props }) {
     return (
         <div className="row mb-5">
-            <JobName props={props}/>
-            <JobDate props={props}/>
+            <JobName props={props} />
+            <JobDate props={props} />
         </div>
     );
 }

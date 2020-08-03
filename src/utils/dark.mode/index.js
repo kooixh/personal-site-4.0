@@ -1,4 +1,4 @@
-import useDarkMode from "use-dark-mode";
+import useDarkMode from 'use-dark-mode';
 
 function isSystemDarkMode() {
     return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -11,5 +11,5 @@ function useThemeStatus() {
 
 export default {
     isSystemDarkMode: isSystemDarkMode,
-    useThemeStatus: useThemeStatus
-}
+    useThemeStatus: useThemeStatus,
+};
