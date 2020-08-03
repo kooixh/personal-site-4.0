@@ -1,4 +1,5 @@
 import React from 'react';
+import { SRLWrapper } from 'simple-react-lightbox';
 
 import { PROJECT_DATA } from '@app/views/projects/projects.data';
 import Emoji from '@app/components/emoji';
@@ -64,9 +65,11 @@ function ProjectScreenShot({ screenshot }) {
             <h2 className="">
                 ScreenShot <Emoji symbol="📷" label="camera" />
             </h2>
-            <div className="">
-                <img src={screenshot.img} alt="screenshot" width={screenshot.width} height={screenshot.height} />
-            </div>
+            <SRLWrapper>
+                <div>
+                    <img src={screenshot.img} alt="screenshot" width={screenshot.width} height={screenshot.height} />
+                </div>
+            </SRLWrapper>
         </div>
     );
 }
