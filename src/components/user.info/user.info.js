@@ -51,7 +51,7 @@ export function UserInfo() {
                             <img
                                 className="img-fluid img-profile rounded-circle mb-2 profile-pic"
                                 src={ProfilePic}
-                                alt="Xiu Hong Profile Picture"
+                                alt="Xiu Hong Kooi"
                             />
                         </span>
                     </div>
