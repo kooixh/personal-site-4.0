@@ -1,4 +1,5 @@
 import React from 'react';
+import { SRLWrapper } from 'simple-react-lightbox';
 import Socials from '@app/components/socials';
 
 import Emoji from '@app/components/emoji';
@@ -44,15 +45,17 @@ export function UserInfo() {
                     </div>
                     <Socials />
                 </div>
-                <div className="col mr-3">
-                    <span>
-                        <img
-                            className="img-fluid img-profile rounded-circle mb-2 profile-pic"
-                            src={ProfilePic}
-                            alt="profile"
-                        />
-                    </span>
-                </div>
+                <SRLWrapper>
+                    <div className="col mr-3">
+                        <span>
+                            <img
+                                className="img-fluid img-profile rounded-circle mb-2 profile-pic"
+                                src={ProfilePic}
+                                alt="Xiu Hong Kooi"
+                            />
+                        </span>
+                    </div>
+                </SRLWrapper>
             </div>
 
             <ProfileOverview />

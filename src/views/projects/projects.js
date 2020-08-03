@@ -7,7 +7,6 @@ import { Helmet } from 'react-helmet';
 
 import darkModeUtils from '@app/utils/dark.mode';
 
-
 function ProjectHelmet() {
     return (
         <Helmet>
