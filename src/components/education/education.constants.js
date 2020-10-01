@@ -6,6 +6,9 @@ export const SCHOOLS = [
         schoolEmojiLabel: 'great britain flag',
         grades: 'In Progress',
         gradesEmoji: '🔜',
+        description:
+            'Research in Formal Methods, Advanced topics in Operating Systems, Multicore Semantics, Mobile Machine Learning, ' +
+            'Algebraic Path Problems',
         date: 'October 2020 - June 2021',
         schoolLink: 'https://cam.ac.uk',
         schoolLinkTitle: 'University of Cambridge',
