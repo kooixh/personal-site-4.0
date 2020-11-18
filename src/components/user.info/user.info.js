@@ -19,7 +19,7 @@ function ProfileOverview() {
             <p>
                 Excellent problem solver with many years in programming, interested in data structures and algorithms. I
                 Enjoy trying and learning about different programming languages and technologies. I spend a lot of my
-                undergraduate and postgraduate careers researching and learning about Formal Methods.
+                undergraduate and postgraduate careers researching and learning about Programming Languages Theory.
             </p>
         </div>
     );

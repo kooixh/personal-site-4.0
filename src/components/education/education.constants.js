@@ -7,8 +7,8 @@ export const SCHOOLS = [
         grades: 'In Progress',
         gradesEmoji: '🔜',
         description:
-            'Research in Formal Methods, Advanced topics in Operating Systems, Multicore Semantics, Mobile Machine Learning, ' +
-            'Algebraic Path Problems',
+            'Research in Programming Languages and Types, Advanced topics in Operating Systems, Multicore Semantics, Mobile Machine Learning, ' +
+            'Algebraic Path Problems and Interactive Proofs',
         date: 'October 2020 - June 2021',
         schoolLink: 'https://cam.ac.uk',
         schoolLinkTitle: 'University of Cambridge',
