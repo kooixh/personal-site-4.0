@@ -33,7 +33,11 @@ export function UserInfo() {
                     <h1 className="page-header">Xiu Hong Kooi</h1>
                     <div>
                         <p className="subheading">
-                            Software Engineer <Emoji symbol="👨‍💻" label="tech guy" />
+                            Software Engineer <Emoji symbol="👨‍💻" label="tech guy" /> Computer Scientist{' '}
+                            <Emoji symbol="💻" label="laptop" />
+                        </p>
+                        <p className="subheading mt-0 pt-0">
+                            University of Cambridge <Emoji symbol="🏫" label="school" />
                         </p>
                         <a className="primary-link subheading" href={CV}>
                             CV <Emoji symbol="📄" label="document" />
