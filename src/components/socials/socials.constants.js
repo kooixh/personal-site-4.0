@@ -29,4 +29,10 @@ export const SOCIALS = [
         icon: 'cib-buy-me-a-coffee',
         uid: 5,
     },
+    {
+        url: 'https://www.youtube.com/channel/UC2edjCzpEUbQGN5yASnFHxw',
+        tooltip: 'YouTube',
+        icon: 'cib-youtube',
+        uid: 6,
+    },
 ];
