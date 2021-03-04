@@ -12,7 +12,7 @@ export const SOCIALS = [
         uid: 2,
     },
     {
-        url: 'https://twitter.com/kooixiuhong',
+        url: 'https://twitter.com/kooixh',
         tooltip: 'Twitter',
         icon: 'cib-twitter',
         uid: 3,
