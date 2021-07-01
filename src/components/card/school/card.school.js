@@ -37,7 +37,7 @@ export function SchoolCard({ props }) {
                 <SchoolName props={props} />
                 <SchoolSubHeading props={props} />
                 <p className="mb-3">{props.description}</p>
-                <p className="mb-3">{props.dissertation}</p>
+                <p className="mb-3">Dissertation: {props.dissertation}</p>
             </div>
             <SchoolDates props={props} />
         </div>
