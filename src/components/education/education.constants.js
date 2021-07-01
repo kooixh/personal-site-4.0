@@ -4,12 +4,13 @@ export const SCHOOLS = [
         schoolName: 'University of Cambridge',
         schoolEmoji: '🇬🇧',
         schoolEmojiLabel: 'great britain flag',
-        grades: 'In Progress',
-        gradesEmoji: '🔜',
+        grades: 'Pass, 73%',
+        gradesEmoji: '🏆',
         description:
-            'Research in Programming Languages and Types, Advanced topics in Operating Systems, Multicore Semantics, Mobile Machine Learning, ' +
-            'Algebraic Path Problems and Interactive Proofs',
+            'Focus on Theoretical Computer Science, specifically programming languages semantics and type theory. ' +
+            'Additional courses on Advanced OS and mobile machine learning.',
         date: 'October 2020 - June 2021',
+        dissertation: 'Refinement Types in Real-World Programming',
         schoolLink: 'https://cam.ac.uk',
         schoolLinkTitle: 'University of Cambridge',
         uid: 1,
@@ -21,7 +22,7 @@ export const SCHOOLS = [
         schoolEmojiLabel: 'great britain flag',
         description:
             "Lead Developer in Group Project, Best Grade in Class of 19', 2x British Computing Society Academic Awards",
-        dissertation: 'Dissertation: An Adaptive And Intuitive Approach to Term Rewriting',
+        dissertation: 'An Adaptive And Intuitive Approach to Term Rewriting',
         grades: '1st Class Honours, 83%',
         gradesEmoji: '🏆',
         date: 'September 2016 - June 2019',
