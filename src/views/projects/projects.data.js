@@ -3,8 +3,24 @@ import QCK_BUDGET from '@app/assets/projects/screenshots/qck_2.png';
 import TRS from '@app/assets/projects/screenshots/rewrite_1.png';
 
 import DISSERTATION from '@app/assets/projects/dissertation.pdf';
+import MPHIL_DISSERTATION from '@app/assets/projects/acs-dissertation.pdf';
 
 export const PROJECT_DATA = {
+    refine: {
+        name: 'Refinement Types in Read-World Programming',
+        uid: 'refine',
+        description: 'MPhil Dissertation on Refinement Type System in a real-world programming language',
+        links: [
+            {
+                name: 'Read The Dissertation',
+                href: MPHIL_DISSERTATION,
+            },
+        ],
+        details:
+            'The dissertation focused on introducing Refinement Types in a C-Style language. In the dissertation I looked at ' +
+            'existing language that uses refinement type and formalise new semantics for a new language.',
+        techDetails: 'The work is purely theoretical and thus does not involve any implementation.',
+    },
     genid: {
         name: 'Genid',
         uid: 'genid',

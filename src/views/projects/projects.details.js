@@ -15,9 +15,10 @@ function ProjectDetailsHelmet(props) {
     );
 }
 
-function generateProjectEmoji(props) {
-    const symbol = props.type === 'mobile' ? '📱' : '💻';
-    return <Emoji symbol={symbol} label={props} />;
+function generateProjectEmoji(type) {
+    if (type === undefined) return '';
+    const symbol = type === 'mobile' ? '📱' : '💻';
+    return <Emoji symbol={symbol} label={type} />;
 }
 
 function renderProjectLinks(links) {
