@@ -16,7 +16,8 @@ function ProjectDetailsHelmet(props) {
 }
 
 function generateProjectEmoji(props) {
-    const symbol = props.type === 'mobile' ? '📱' : '💻';
+    if (props === undefined) return '';
+    const symbol = props === 'mobile' ? '📱' : '💻';
     return <Emoji symbol={symbol} label={props} />;
 }
 
