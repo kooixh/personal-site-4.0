@@ -10,6 +10,16 @@ export const KEYSIGHT_DESC =
     'I experimented using Spark and Splunk to perform data pre-processing and provided these findings at the end of my internship and ' +
     'helped the rest of the team carry on with the project.';
 
+const MONEYLION_JOB = {
+    title: 'Senior Software Engineer',
+    company: 'MoneyLion',
+    description: 'Currently an engineer on the QDS team.',
+    date: 'July 2021 - Present',
+    jobLink: 'https://www.moneylion.com/',
+    jobLinkTitle: 'MoneyLion',
+    uid: 3,
+};
+
 const AIRASIA_JOB = {
     title: 'Software Engineer',
     company: 'AirAsia',
@@ -30,4 +40,4 @@ const KEYSIGHT_JOB = {
     uid: 2,
 };
 
-export const JOBS = [AIRASIA_JOB, KEYSIGHT_JOB];
+export const JOBS = [MONEYLION_JOB, AIRASIA_JOB, KEYSIGHT_JOB];
