@@ -74,9 +74,9 @@ export const TECH_PREF = [
         emojiLabel: 'laptop',
     },
     {
-        name: 'Mobile App Development',
-        emoji: '📱',
-        emojiLabel: 'mobile',
+        name: 'System Design',
+        emoji: '🖥️',
+        emojiLabel: 'system',
     },
     {
         name: 'Cloud Technologies',
