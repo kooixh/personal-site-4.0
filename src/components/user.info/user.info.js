@@ -44,8 +44,8 @@ export function UserInfo() {
                             CV <Emoji symbol="📄" label="document" />
                         </a>
                         <br />
-                        <a className="primary-link subheading" href="mailto:xiuhong.kooi977055@gmail.com">
-                            kooixh97@gmail.com <Emoji symbol="📧" label="email" />
+                        <a className="primary-link subheading" href="mailto:xhk20@cantab.ac.uk">
+                            xhk20@cantab.ac.uk <Emoji symbol="📧" label="email" />
                         </a>
                     </div>
                     <Socials />
