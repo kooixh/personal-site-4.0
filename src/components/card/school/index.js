@@ -1,1 +1,1 @@
-export { default } from './card.school';
+export { default } from './card.school'
