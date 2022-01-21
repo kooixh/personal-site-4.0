@@ -31,7 +31,11 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "prettier:check": "npx prettier --check 'src/**/*.{js,jsx}'",
+    "prettier:write": "npx prettier --write 'src/**/*.{js,jsx}'",
+    "eslint:lint": "npx eslint 'src/**/*.{js,jsx}'",
+    "eslint:fix": "npx eslint --fix 'src/**/*.{js,jsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -65,6 +69,6 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "src/**/*.{js,jsx}": ["npx prettier --write", "npx eslint"]
   }
 }

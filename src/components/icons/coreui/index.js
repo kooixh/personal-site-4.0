@@ -1,1 +1,1 @@
-export { default } from './coreui.icons';
+export { default } from './coreui.icons'

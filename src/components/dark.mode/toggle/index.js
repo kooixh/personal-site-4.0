@@ -1,1 +1,1 @@
-export { default } from './dark.mode.toggle';
+export { default } from './dark.mode.toggle'
