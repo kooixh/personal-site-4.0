@@ -10,10 +10,14 @@ export const KEYSIGHT_DESC =
   'I experimented using Spark and Splunk to perform data pre-processing and provided these findings at the end of my internship and ' +
   'helped the rest of the team carry on with the project.'
 
+export const MONEYLION_DESC =
+  'Working on QDS Team, maintaining our internal CRM portal. ' +
+  'Currently focused on and interested in building cool stuff using Apache Kafka.'
+
 const MONEYLION_JOB = {
   title: 'Senior Software Engineer',
   company: 'MoneyLion',
-  description: 'Currently an engineer on the QDS team.',
+  description: MONEYLION_DESC,
   date: 'July 2021 - Present',
   jobLink: 'https://www.moneylion.com/',
   jobLinkTitle: 'MoneyLion',
