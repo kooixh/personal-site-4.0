@@ -11,8 +11,9 @@ export const KEYSIGHT_DESC =
   'helped the rest of the team carry on with the project.'
 
 export const MONEYLION_DESC =
-  'Working on QDS Team, maintaining our internal CRM portal. ' +
-  'Currently focused on and interested in building cool stuff using Apache Kafka.'
+  'Working on QDS Team, maintaining and enhancing our internal CRM portal. ' +
+  'Implementing new solutions to revamp legacy implementations to make our systems more efficient. ' +
+  'Currently driving the adoption of Apache Kafka within the team. '
 
 const MONEYLION_JOB = {
   title: 'Senior Software Engineer',
