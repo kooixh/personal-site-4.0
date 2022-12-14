@@ -37,7 +37,8 @@ export function UserInfo() {
               <Emoji symbol='💻' label='laptop' />
             </p>
             <p className='subheading mt-0 pt-0'>
-              University of Cambridge <Emoji symbol='🏫' label='school' /> MoneyLion <Emoji symbol='💼' label='work' />
+              University of Cambridge <Emoji symbol='🏫' label='school' /> McKinsey & Company{' '}
+              <Emoji symbol='💼' label='work' />
             </p>
             <a className='primary-link subheading' href={CV}>
               CV <Emoji symbol='📄' label='document' />

@@ -15,11 +15,21 @@ export const MONEYLION_DESC =
   'Implementing new solutions to revamp legacy implementations to make our systems more efficient. ' +
   'Currently driving the adoption of Apache Kafka within the team. '
 
+const MCKINSEY_JOB = {
+  title: 'Software Engineer',
+  company: 'McKinsey & Company',
+  description: '',
+  date: 'November 2022 - Present',
+  jobLink: 'https://www.mckinsey.com/',
+  jobLinkTitle: 'McKinsey',
+  uid: 4,
+}
+
 const MONEYLION_JOB = {
   title: 'Senior Software Engineer',
   company: 'MoneyLion',
   description: MONEYLION_DESC,
-  date: 'July 2021 - Present',
+  date: 'July 2021 - October 2022',
   jobLink: 'https://www.moneylion.com/',
   jobLinkTitle: 'MoneyLion',
   uid: 3,
@@ -45,4 +55,4 @@ const KEYSIGHT_JOB = {
   uid: 2,
 }
 
-export const JOBS = [MONEYLION_JOB, AIRASIA_JOB, KEYSIGHT_JOB]
+export const JOBS = [MCKINSEY_JOB, MONEYLION_JOB, AIRASIA_JOB, KEYSIGHT_JOB]
